@@ -29,1325 +29,3945 @@
 # Match strings must be unique. Name does not need to be unique.
 #
 
+name 3COM
+    match_string_case 3COM 3C
+    match_string_case -3COM
+    match_string_case 3Com Corporation
+    match_string_case ETHERNET 3COM
+    match_string_case FE575
+    url www.3com.com/products/en_US/prodlist.jsp?tab=cat&pathtype=purchase&cat=19&selcat=Network+Interface+Cards+%26+Adapters
+    url_support www.3com.com/products/en_US/downloadsindex.jsp
+    name 3COM
+
 name 3Com
+    match_string 3Com
     url www.3com.com
+    name 3Com
     wikipedia 3Com
     ansi_color 0;97;40
-    match_string 3Com
+
+name 3DLABS
+    match_string_case 3Dlabs Inc. Ltd.
+    url www.3dlabs.com/content/productOverview.asp
+    url_support www.3dlabs.com
+    name 3DLABS
+
+name A-Data
+    match_string_case ADATA Technology Co.
+    url www.adata-group.com/index.php?action=product&cid=6&lan=en
+    name A-Data
+
+name A4TECH
+    match_string_case A4Tech Co., Ltd.
+    url www.a4tech.com
+    url_support www.a4tech.com/driver.asp?m=s1
+    name A4TECH
 
 name A4tech
+    match_string A4Tech
     url www.a4tech.com
+    name A4tech
     wikipedia A4Tech
     ansi_color 0;33;40
-    match_string A4Tech
 
-name AboCom Systems
-    url www.abocom.com.tw
-    match_string AboCom Systems
-    match_string AboCom
+name ABIT
+    match_string_case Universal ABIT Co., Ltd.
+    url abit.ws/page/en/motherboard/motherboard.php
+    url_support abit.ws/page/en/download/download_bios.php
+    name ABIT
 
-name Acer
-    name_short acer
-    url www.acer.com
-    ansi_color 0;32;107
-    match_string Acer
-    note EDID vendor: ACR
-    match_string_exact ACR
+name ACER
+    match_string_case ACERVIEW
+    match_string_case Acer Inc.
+    match_string_case BenQ Corporation
+    match_string_case BENQ
+    url www.benq.com
+    url us.acer.com/ac/en/US/content/group/desktops
+    url us.acer.com/ac/en/US/content/group/monitors
+    url_support us.acer.com/ac/en/US/content/drivers
+    url_support www.benq.us/support/downloads
+    name ACER
+
+name ACROBAT
+    match_string_case ADOBEPS
+    match_string_case Adobe Systems Incorporated
+    url www.adobe.com/products/acrobat
+    name ACROBAT
+
+name ADAPTEC
+    match_string_case 39160
+    match_string_case 39320
+    match_string_case 29160
+    match_string_case ADAPTEC A
+    match_string_case 19320
+    match_string_case 29320
+    match_string_case Adaptec, Inc.
+    match_string_case 19160
+    match_string_case DPT
+    url www.adaptec.com/en-us/products
+    url_support www.adaptec.com/en-us/downloads
+    name ADAPTEC
 
 name ADATA Technology
+    match_string_case ADATA
+    name ADATA Technology
     name_short ADATA
     ansi_color 0;34;47
-    match_string_case ADATA
 
-# PCI Vendor 1002 (used for GPUs)
-name Advanced Micro Devices (formerly ATI)
-    name_short AMD/ATI
-    url www.amd.com
-    wikipedia ATI Technologies
-    ansi_color 0;97;41
-    match_string ATI Technologies
-    match_string Advanced Micro Devices, Inc. [AMD/ATI]
-    match_string_case AMD/ATI
-    match_string_case ATI
+name ADVANTECH
+    match_string_case Advantech Co., Ltd.
+    url www.advantech.com/products
+    url_support support.advantech.com
+    name ADVANTECH
 
-name Advanced Micro Devices
-    name_short AMD
-    url www.amd.com
-    wikipedia Advanced Micro Devices
-    ansi_color 0;97;41
-    note x86 processor vendor ID
-    match_string AMDisbetter!
-    match_string AuthenticAMD
+name AG NEOVO
+    match_string_case AG Neovo
+    url global.agneovo.com/global/content/products.asp
+    url_support global.agneovo.com/global/content/downloads.asp
+    name AG NEOVO
 
-# PCI Vendor 1022
-name Advanced Micro Devices
-    name_short AMD
-    url www.amd.com
-    wikipedia Advanced Micro Devices
-    ansi_color 0;97;41
-    match_string Advanced Micro Devices
-    match_string_case AMD
+name AKASA
+    match_string_case Akasa Group of companies
+    url www.akasa.co.uk
+    name AKASA
 
-name Alcor Life Extension Foundation
-# Makes devices?
-    name_short Alcor
-    url www.alcor.org
-    match_string ALCOR
+name ALBATRON
+    match_string_case Albatron Technology Co. Ltd.
+    match_string_case Albatron Technology Co., Ltd.
+    url www.albatron.com.tw/eng
+    url www.albatron.com.tw/eng/product.asp
+    url_support www.albatron.com.tw/eng/faq.asp
+    name ALBATRON
 
-name Allwinner Technology
-    name_short AllWinner
-    url www.allwinnertech.com
-    wikipedia Allwinner Technology
-    ansi_color 0;97;44
-    match_string AllWinner
+name ALCOHOL
+    match_string_case Alcohol Software
+    match_string_case AXV CD
+    url www.alcohol-software.com/software.php
+    name ALCOHOL
 
-name American Megatrends
-    name_short AMI
-    url www.ami.com
-    ansi_color 0;31;47
-    match_string American Megatrends
+name ALLIANCE
+    match_string_case Alliance Semiconductor Corporation
+    url www.alsc.com
+    name ALLIANCE
 
-name Amlogic
-    name_short AMLogic
-    url www.amlogic.com
-    wikipedia Amlogic
-    ansi_color 0;94;107
-    match_string Amlogic
+name ALPHA
+    match_string_case Alpha Company Ltd.
+    url www.micforg.co.jp/en/gallerye.html
+    name ALPHA
 
-name Angelbird Technologies
-    name_short Angelbird
+name ALPS
+    match_string_case ALPS Electric Co., Ltd.
+    url www.alps.com
+    name ALPS
+
+name AMD
+    match_string_case AMD-PCNET
+    match_string_case Advanced Micro Devices, Inc.
+    url www.amd.com/us/products/desktop/chipsets
+    url www.amd.com/en-us/products/processors/desktop
+    url_support support.amd.com
+    name AMD
+
+name AMERICAN MEGATRENDS
+    match_string_case ASUS AMI
+    match_string_case American Megatrends Inc.
+    url www.ami.com/amibios
+    name AMERICAN MEGATRENDS
+
+name AMI
+    match_string_case American Megatrends Inc.
+    url www.ami.com/products
+    url www.ami.com/motherboards
+    url_support www.ami.com/support/bios.cfm#3
+    url_support www.ami.com/support/product.cfm
+    name AMI
+
+name AMTRAN
+    match_string_case AmTRAN Technology Co., Ltd
+    url www.amtran.com.tw
+    name AMTRAN
+
+name ANALOGDEVICES
+    match_string_case ANALOG DEVICES
+    match_string_case Analog Devices, Inc.
+    match_string_case SOUNDMAX
+    match_string_case ANALOG-DEVICES
+    url www.analog.com
+    name ANALOGDEVICES
+
+name ANGELBIRD
+    match_string_case A201CXBA9TA
+    match_string_case Angelbird Technologies GmbH
     url www.angelbird.com
-    ansi_color 0;97;100
-    match_string Angelbird
+    name ANGELBIRD
+
+name ANTEC
+    match_string_case Antec, Inc.
+    url store.antec.com/enclosure/
+    url store.antec.com/power-supply/
+    url store.antec.com/cooling/
+    name ANTEC
+
+name AO MCST
+    match_string Elbrus-2C3
+    match_string MONOCUB
+    match_string Elbrus-4C
+    match_string EL2S4
+    match_string Elbrus-8CB
+    match_string Elbrus-1C+
+    match_string Elbrus-8C
+    match_string MBE1C-PC
+    match_string Elbrus-16C
+    match_string Elbrus-12C
+    match_string E8C-SWTX
+    match_string Elbrus-2C+
+    match_string Elbrus-MCST
+    match_string_prefix MBE8C-PC
+    url www.mcst.ru/elbrus-16c
+    url www.mcst.ru/elbrus-4c
+    url www.mcst.ru
+    url www.mcst.ru/elbrus-1c-plus
+    url www.mcst.ru/elbrus-8c
+    url www.mcst.ru/elbrus-2c-plus
+    url www.mcst.ru/elbrus-2c3
+    url www.mcst.ru/elbrus-8sv
+    url www.mcst.ru/elbrus-12c
+    url_support www.mcst.ru/support
+    name AO MCST
+    name_short MCST
+    ansi_color 0;34;107
+
+name AOC
+    match_string_case AOC, Inc.
+    url us.aoc.com/product_catalog.php
+    url_support us.aoc.com/download.php
+    name AOC
 
 name AOC International
-    name_short AOC
+    match_string_case AOC
+    match_string Admiral
+    match_string Admiral Overseas Corporation
     url www.aoc.com
+    name AOC International
+    name_short AOC
     wikipedia AOC International
     ansi_color 0;97;44
-    match_string_case AOC
     note formerly Admiral Overseas Corporation
-    match_string Admiral Overseas Corporation
-    match_string Admiral
 
-name Apacer Technology
-    name_short Apacer
-    match_string Apacer
+name AOPEN
+    match_string_case AOpen Inc.
+    url www.aopen.com/global
+    url_support global.aopen.com/download.aspx
+    name AOPEN
 
-name Apple Computer
-    name_short Apple
-    url www.apple.com
-    ansi_color 0;97;100
-    match_string Apple
-    note EDID vendor: APP
-    match_string_exact APP
+name APACER
+    match_string_case Apacer Technology Inc.
+    url www.apacer.com/en/Products
+    name APACER
 
-name Applied Micro Circuits
-    name_short APM
-    wikipedia Applied Micro Circuits Corporation
-    match_string Applied Micro Circuits
-    match_string AppliedMicro
-    match_string_case APM
-    match_string_case AMCC
+name APOLLO
+    match_string_case APOLLO Consumer Products, Ltd.
+    url www.myapollo.com/products/index.htm
+    name APOLLO
 
-name Arch Linux
-    name_short Arch
-    url www.archlinux.org
-    ansi_color 0;36;107
-    match_string arch linux
+name ARCTIC
+    match_string_case ARCTIC COOLING Switzerland AG
+    url www.arctic.ac/eu_en/products/cooling.html
+    name ARCTIC
 
-name Arm Holdings
-# styled lower-case "arm"
-    name_short arm
-    url arm.com
-    ansi_color 0;36;107
-    match_string ARM
+name ARTEC
+    match_string_case VOM-12E48X
+    match_string_case Ultima Electronics Corp.
+    url www.artec.com.tw
+    name ARTEC
+
+name ASETEK
+    match_string_case Asetek, Inc.
+    url www.asetek.com
+    name ASETEK
 
 name ASMedia Technology
-    name_short ASMedia
-    url www.asmedia.com.tw
-    ansi_color 0;30;46
     match_string_case ASMedia
+    url www.asmedia.com.tw
+    name ASMedia Technology
+    name_short ASMedia
+    ansi_color 0;30;46
+
+name ASPEED
+    match_string_case ASPEED Technology Inc.
+    url www.aspeedtech.com/products.php
+    url_support www.aspeedtech.com/support.php
+    name ASPEED
+
+name ASROCK
+    match_string_case ASRock Inc.
+    url www.asrock.com/mb/index.asp?s=n
+    url_support www.asrock.com/support/download.asp?cat=BIOS
+    name ASROCK
 
 name ASRock
-    url www.asrock.com
-    ansi_color 0;32;107
     match_string ASRock
+    url www.asrock.com
+    name ASRock
+    ansi_color 0;32;107
+
+name ASUS
+    match_string_case /ASUS
+    match_string_case ASUSTeK Computer Inc.
+    match_string_case ASUSTEK
+    match_string_case 3DEXPLORER
+    url www.asus.com/Motherboards
+    url www.asus.com/Monitors_Projectors
+    url www.asus.com/Optical_Drives
+    url www.asus.com/Graphics_Cards
+    url_support support.asus.com/download/download.aspx?SLanguage=en-us
+    name ASUS
 
 name ASUSTeK Computer
-    name_short ASUS
-    url www.asus.com
-    wikipedia Asus
-    ansi_color 0;30;47
     match_string ASUSTek
     match_string ASUS
+    url www.asus.com
+    name ASUSTeK Computer
+    name_short ASUS
+    wikipedia Asus
+    ansi_color 0;30;47
+
+name ATA
+    match_string_case ADATA Technology Co.
+    match_string_case A-DATA
+    match_string_case ADATA
+    url www.adata-group.com/index.php?action=index_ssd&lan=en
+    name ATA
+
+name ATI
+    match_string_case HD7950
+    match_string_case X850
+    match_string_case HD4580
+    match_string_case HD8350
+    match_string_case HD8570
+    match_string_case HD2450
+    match_string_case HD4750
+    match_string_case X1350
+    match_string_case RV530
+    match_string_case HD7450
+    match_string_case HD2350
+    match_string_case WARCAT RADEON
+    match_string_case M76M
+    match_string_case RV635
+    match_string_case HD6250
+    match_string_case HD8650
+    match_string_case X700
+    match_string_case AMD
+    match_string_case X1450
+    match_string_case HD5870
+    match_string_case HD4870
+    match_string_case HD6990
+    match_string_case HD3470
+    match_string_case HD5530
+    match_string_case HD6310
+    match_string_case HD5490
+    match_string_case X800
+    match_string_case HD8990
+    match_string_case R9800
+    match_string_case RV535
+    match_string_case HD6870
+    match_string_case X1900
+    match_string_case HD3550
+    match_string_case HD7990
+    match_string_case R7500
+    match_string_case HD7870
+    match_string_case HD4570
+    match_string_case HD4610
+    match_string_case HD7350
+    match_string_case HD8790
+    match_string_case HD6620
+    match_string_case IGP-320
+    match_string_case X600
+    match_string_case HD5570
+    match_string_case HD2300
+    match_string_case HD4730
+    match_string_case HD6980
+    match_string_case HD8950
+    match_string_case R8500
+    match_string_case HD6520
+    match_string_case HD8550
+    match_string_case HD4820
+    match_string_case RV710
+    match_string_case RV770
+    match_string_case R9500
+    match_string_case HD4700
+    match_string_case RV620
+    match_string_case R9550
+    match_string_case HD4880
+    match_string_case HD5770
+    match_string_case HD4350
+    match_string_case RV610
+    match_string_case RAGE R128
+    match_string_case HD2400
+    match_string_case MOBILITY FIRE
+    match_string_case HD3650
+    match_string_case RAGE 128
+    match_string_case HD4890
+    match_string_case HD5850
+    match_string_case HD3690
+    match_string_case X1650
+    match_string_case HD5970
+    match_string_case HD8870
+    match_string_case HD7670
+    match_string_case HD6770
+    match_string_case HD6570
+    match_string_case RAGE LT
+    match_string_case XPERT@
+    match_string_case X1400
+    match_string_case RV670
+    match_string_case X550
+    match_string_case XPERT
+    match_string_case HD6430
+    match_string_case HD6380
+    match_string_case HD4770
+    match_string_case HD6510
+    match_string_case RAGE FURY
+    match_string_case HD4830
+    match_string_case HD6670
+    match_string_case RV515
+    match_string_case HD2900
+    match_string_case HD2650
+    match_string_case HD6320
+    match_string_case HD3430
+    match_string_case HD3830
+    match_string_case HD3850
+    match_string_case HD4250
+    match_string_case HD7790
+    match_string_case RV660
+    match_string_case X1950
+    match_string_case HD3870
+    match_string_case HD6950
+    match_string_case X1300
+    match_string_case MOBILITY RADEON
+    match_string_case HD2950
+    match_string_case AMD-
+    match_string_case HD5670
+    match_string_case HD8850
+    match_string_case HD6480
+    match_string_case HD7750
+    match_string_case HD6450
+    match_string_case M6-M/D
+    match_string_case ATIRAGE
+    match_string_case RV730
+    match_string_case HD7770
+    match_string_case HD7850
+    match_string_case HD8770
+    match_string_case Advanced Micro Devices, Inc.
+    match_string_case R9200
+    match_string_case HD6470
+    match_string_case HD7650
+    match_string_case HD6850
+    match_string_case HD6830
+    match_string_case R9000
+    match_string_case HD5550
+    match_string_case HD3570
+    match_string_case IGP 340
+    match_string_case HD4810
+    match_string_case ATIRADEON
+    match_string_case HD6750
+    match_string_case HD7970
+    match_string_case ALL-IN-WONDER
+    match_string_case HD5450
+    match_string_case R9600
+    match_string_case HD8470
+    match_string_case HD3730
+    match_string_case ATI-
+    match_string_case HD4370
+    match_string_case HD6970
+    match_string_case X1850
+    match_string_case HD8450
+    match_string_case HD3450
+    match_string_case HD5630
+    match_string_case ALL-IN WONDER
+    match_string_case HD3410
+    match_string_case MOBILITY U
+    match_string_case HD8970
+    match_string_case MAGNUM/
+    match_string_case HD6790
+    match_string_case RADEON
+    match_string_case IGP 345
+    match_string_case XPERT98
+    match_string_case IGP-340
+    match_string_case HD8370
+    match_string_case HD4670
+    match_string_case RAGE MOBILITY
+    match_string_case HD2600
+    match_string_case HD7470
+    match_string_case X1800
+    match_string_case R9100
+    match_string_case HD7570
+    match_string_case HD6370
+    match_string_case HD3670
+    match_string_case HD4550
+    match_string_case HD4650
+    match_string_case HD4710
+    match_string_case HD8670
+    match_string_case IGP-345
+    match_string_case X1600
+    match_string_case HD6550
+    match_string_case HD6410
+    match_string_case RV570
+    match_string_case RV505
+    match_string_case ATI RADEON
+    match_string_case HD6230
+    match_string_case HD4850
+    match_string_case RAGE II
+    match_string_case HD3610
+    match_string_case HD6350
+    match_string_case HD5950
+    match_string_case HD6530
+    match_string_case HD7550
+    match_string_case IGP 320
+    match_string_case RAGE XL
+    match_string_case RV560
+    match_string_case HD3750
+    match_string_case X300
+    match_string_case HD5750
+    match_string_case HD8830
+    match_string_case HD5470
+    match_string_case R9700
+    match_string_case HD7370
+    match_string_case HD6650
+    match_string_case HD4230
+    match_string_case RV630
+    match_string_case HD6730
+    match_string_case MOBILITY M
+    match_string_case FIREMV
+    match_string_case MOBILITY A
+    match_string_case M72M
+    match_string_case RAGE PRO
+    match_string_case HD5650
+    match_string_case RAGE128
+    match_string_case HD4450
+    match_string_case MOBILITY / RADEON
+    match_string_case HD5830
+    match_string_case HD7830
+    match_string_case RV720
+    match_string_case HD8750
+    match_string_case HD5730
+    url www.amd.com/us/products/desktop/chipsets
+    url www.amd.com/en-us/products/graphics/desktop
+    url_support sites.amd.com/us/game/downloads
+    url_support support.amd.com
+    name ATI
+
+name AU OPTRONICS
+    match_string_case AU Optronics Corp.
+    url www.auo.com/?sn=149&lang=en-US&c=33
+    url_support www.auo.com/?sn=171&lang=en-US
+    name AU OPTRONICS
 
 name AU Optronics Corporation
-    name_short AUO
+    match_string_case AUO
+    match_string AU Optronics
     url www.auo.com
+    name AU Optronics Corporation
+    name_short AUO
     wikipedia AU Optronics
     ansi_color 0;34;107
-    match_string AU Optronics
-    match_string_case AUO
+
+name AUDIOSCIENCE
+    match_string_case AudioScience, Inc.
+    url www.audioscience.com/internet/products/sound_cards/soundcards.htm
+    url_support www.audioscience.com/internet/download/win_drivers.htm
+    name AUDIOSCIENCE
+
+name AVM
+    match_string_case AVM GmbH
+    match_string_case FRITZ!
+    url en.avm.de/products
+    url_support en.avm.de/service/downloads
+    name AVM
 
 name AVerMedia Technologies
-    name_short AVerMedia
-    url www.aver.com
     match_string Avermedia
+    url www.aver.com
+    name AVerMedia Technologies
+    name_short AVerMedia
+
+name AWARD
+    match_string_case Phoenix Technologies Ltd.
+    match_string_case PHOENIX
+    url www.phoenix.com/products
+    name AWARD
+
+name AboCom Systems
+    match_string AboCom Systems
+    match_string AboCom
+    url www.abocom.com.tw
+    name AboCom Systems
+
+name Acer
+    match_string Acer
+    match_string_exact ACR
+    url www.acer.com
+    name Acer
+    name_short acer
+    ansi_color 0;32;107
+    note EDID vendor: ACR
+
+name Advanced Micro Devices
+    match_string_case AMD
+    match_string Advanced Micro Devices
+    match_string AMDisbetter!
+    match_string AuthenticAMD
+    url www.amd.com
+    name Advanced Micro Devices
+    name_short AMD
+    wikipedia Advanced Micro Devices
+    ansi_color 0;97;41
+    note x86 processor vendor ID
+
+name Advanced Micro Devices (formerly ATI)
+    match_string_case AMD/ATI
+    match_string_case ATI
+    match_string ATI Technologies
+    match_string Advanced Micro Devices, Inc. [AMD/ATI]
+    url www.amd.com
+    name Advanced Micro Devices (formerly ATI)
+    name_short AMD/ATI
+    wikipedia ATI Technologies
+    ansi_color 0;97;41
+
+name Alcor Life Extension Foundation
+    match_string ALCOR
+    url www.alcor.org
+    name Alcor Life Extension Foundation
+    name_short Alcor
+
+name Allwinner Technology
+    match_string AllWinner
+    url www.allwinnertech.com
+    name Allwinner Technology
+    name_short AllWinner
+    wikipedia Allwinner Technology
+    ansi_color 0;97;44
+
+name American Megatrends
+    match_string American Megatrends
+    url www.ami.com
+    name American Megatrends
+    name_short AMI
+    ansi_color 0;31;47
+
+name Amlogic
+    match_string Amlogic
+    url www.amlogic.com
+    name Amlogic
+    name_short AMLogic
+    wikipedia Amlogic
+    ansi_color 0;94;107
+
+name Angelbird Technologies
+    match_string Angelbird
+    url www.angelbird.com
+    name Angelbird Technologies
+    name_short Angelbird
+    ansi_color 0;97;100
+
+name Apacer
+    match_string_case Apacer Technology Inc.
+    url www.apacer.com/en/Products
+    name Apacer
+
+name Apacer Technology
+    match_string Apacer
+    name Apacer Technology
+    name_short Apacer
+
+name Apple Computer
+    match_string Apple
+    match_string_exact APP
+    url www.apple.com
+    name Apple Computer
+    name_short Apple
+    ansi_color 0;97;100
+    note EDID vendor: APP
+
+name Applied Micro Circuits
+    match_string_case AMCC
+    match_string_case APM
+    match_string AppliedMicro
+    match_string Applied Micro Circuits
+    name Applied Micro Circuits
+    name_short APM
+    wikipedia Applied Micro Circuits Corporation
+
+name Arch Linux
+    match_string arch linux
+    url www.archlinux.org
+    name Arch Linux
+    name_short Arch
+    ansi_color 0;36;107
+
+name Arm Holdings
+    match_string ARM
+    url arm.com
+    name Arm Holdings
+    name_short arm
+    ansi_color 0;36;107
+
+name Asia Vital Components Co.,Ltd.
+    url www.avc.com.tw
+    name Asia Vital Components Co.,Ltd.
 
 name Award Software International
-    name_short Award
-    url www.award-bios.com
-    ansi_color 0;93;44
     match_string Award
+    url www.award-bios.com
+    name Award Software International
+    name_short Award
+    ansi_color 0;93;44
 
-name BenQ (formerly Acer Peripherals)
-    name_short BenQ/acer
-    url www.benq.com
-    ansi_color 0;35;107
-    match_string Acer Peripherals
-    match_string Acer Peripherals Inc. (now BenQ Corp.)
+name BACKPACK
+    match_string_case Micro Solutions, Inc.
+    url www.micro-solutions.com/products/index.asp
+    url_support www.micro-solutions.com/downloads/index.asp
+    name BACKPACK
+
+name BCM
+    match_string_case BCM Advanced Research
+    url www.bcmcom.com/bcm_products.htm
+    url_support www.bcmcom.com/bcm_support_legacyProductSupport.htm
+    name BCM
+
+name BEANTECH
+    match_string_case BeanTech International. Inc.
+    url www.beantech.com/powersupply.htm
+    url www.beantech.com/acrylic.htm
+    name BEANTECH
+
+name BELINEA
+    match_string_case MAXDATA
+    match_string_case MAXDATA AG
+    url www.belinea.com
+    url_support www.belinea-treiber.de
+    name BELINEA
+
+name BENQ
+    match_string_case BenQ Corporation
+    url www.benq.com/product/monitor
+    url_support www.benq.us/support/downloads
+    name BENQ
+
+name BIOSTAR
+    match_string_case Biostar Group
+    match_string_case VIARAMA
+    url www.biostar.com.tw/app/en/mb/index.php
+    url_support www.biostar.com.tw/app/en/support/download.php
+    name BIOSTAR
+
+name BROADCOM
+    match_string_case MSI/BROADCOM
+    match_string_case SERVERWORKS
+    match_string_case ASUSTEK/BROADCOM
+    match_string_case Broadcom Corporation
+    url www.broadcom.com/products
+    url_support www.broadcom.com/support/?source=top
+    url_support www.broadcom.com/support/?gid=9
+    name BROADCOM
+
+name BROTHER
+    match_string_case Brother International Corporation
+    match_string_case BROTHER
+    url www.brother-usa.com/printer
+    name BROTHER
 
 name BenQ
-    url www.benq.com
-    ansi_color 0;35;107
     match_string BENQ
+    url www.benq.com
+    name BenQ
+    ansi_color 0;35;107
+
+name BenQ (formerly Acer Peripherals)
+    match_string Acer Peripherals
+    match_string Acer Peripherals Inc. (now BenQ Corp.)
+    url www.benq.com
+    name BenQ (formerly Acer Peripherals)
+    name_short BenQ/acer
+    ansi_color 0;35;107
 
 name Biostar Microtech International
-    name_short BIOSTAR
-    url www.biostar.tw
-    ansi_color 0;31;40
     match_string Biostar
+    url www.biostar.tw
+    name Biostar Microtech International
+    name_short BIOSTAR
+    ansi_color 0;31;40
 
 name Bright Micron Technology
-    name_short BMT
     match_string Bright Micron
+    name Bright Micron Technology
+    name_short BMT
 
 name Broadcom Corporation
-    name_short Broadcom
-    url www.broadcom.com
-    ansi_color 0;30;41
     match_string Broadcom
+    url www.broadcom.com
+    name Broadcom Corporation
+    name_short Broadcom
+    ansi_color 0;30;41
 
 name Brother Industries
-    name_short Brother
+    match_string Brother
     url www.brother.com
+    name Brother Industries
+    name_short Brother
     wikipedia Brother Industries
     ansi_color 0;34;107
-    match_string Brother
-
-name C-guys
-    url www.c-guys.net
-    match_string C-guys
 
 name C-Media Electronics
-    name_short C-Media
-    url www.cmedia.com.tw
     match_string C-Media
+    url www.cmedia.com.tw
+    name C-Media Electronics
+    name_short C-Media
 
-name Cambridge Silicon Radio
-    name_short CSR
-    url www.csr.com
-    wikipedia Cambridge Silicon Radio
-    ansi_color 0;34;107
-    match_string Cambridge Silicon Radio
+name C-guys
+    match_string C-guys
+    url www.c-guys.net
+    name C-guys
 
-name Canon
-    url www.canon.com
-    ansi_color 0;31;107
-    match_string Canon
+name CANON
+    match_string_case BUBBLE-JET
+    match_string_case Canon U.S.A.,Inc.
+    url consumer.usa.canon.com/ir/controller?act=ProductCatIndexAct&fcategoryid=103
+    name CANON
 
-name Canonical
-    url www.canonical.com
-    ansi_color 0;97;45
-    match_string canonical
+name CD-Writer
+    match_string_case HP DVD
+    match_string_case HP CD-Writer
+    match_string_case HEWLETT-PACKARD
+    match_string_case R/RW
+    url www.hp.com/country/us/eng/prodserv/storage.html
+    url_support welcome.hp.com/country/us/en/support.html
+    name CD-Writer
 
 name CDEmu
-    url cdemu.sourceforge.io
     match_string CDEmu
+    url cdemu.sourceforge.io
+    name CDEmu
+
+name CHIEFTEC
+    match_string_case Chieftec Industrial Co., Ltd.
+    url www.chieftec.com/products.html
+    name CHIEFTEC
+
+name CIRRUS
+    match_string_case Cirrus Logic, Inc.
+    url www.cirrus.com
+    url_support www.video-drivers.com
+    name CIRRUS
+
+name CIRRUSLOGIC
+    match_string_case Cirrus Logic, Inc.
+    match_string_case CIRRUS-LOGIC
+    match_string_case CIRRUS LOGIC
+    url www.cirrus.com/en/products
+    url_support www.cirrus.com/en/support
+    name CIRRUSLOGIC
+
+name CISCO
+    match_string_case CISCO
+    match_string_case AIRONET
+    match_string_case Cisco Systems, Inc.
+    url www.cisco.com/cisco/web/solutions/small_business/products/wireless
+    url_support software.cisco.com/download/navigator.html
+    name CISCO
+
+name CITIZEN
+    match_string_case Citizen America Corporation
+    url www.citizen-america.com
+    name CITIZEN
+
+name CLEVO
+    match_string_case CLEVO CO.
+    url www.clevo.com.tw/clevo_pro.asp?lang=en
+    url_support www.clevo.com.tw/clevo_down.asp?lang=en
+    name CLEVO
+
+name CLONECD
+    match_string_case Elaborate Bytes AG
+    match_string_case ELBY CD-ROM
+    match_string_case ELBY DVD-ROM
+    url www.elby.ch/english/products/clone_cd
+    name CLONECD
+
+name CLUB3D
+    match_string_case CLUB-3D
+    match_string_case Colour Power BV
+    match_string_case CLUB 3D
+    url www.club-3d.nl
+    name CLUB3D
+
+name CMEDIA
+    match_string_case CMI8
+    match_string_case C-Media Electronics, Inc.
+    match_string_case C MEDIA
+    match_string_case CMI9
+    match_string_case C-MEDIA
+    url www.cmedia.com.tw/?q=en/products
+    url_support www.cmedia.com.tw/?q=en/cm_drivers
+    name CMEDIA
+
+name CNET
+    match_string_case CNET
+    match_string_case CNet Technology Inc.
+    url www.cnet.com.tw/product_nic_list.php
+    url_support www.cnet.com.tw/support.php
+    name CNET
+
+name COLORFUL
+    match_string_case Seethru Co.,Ltd.
+    url en.colorful.cn/product.aspx?mid=102
+    url_support en.colorful.cn/Support.aspx
+    name COLORFUL
+
+name COMPAQ
+    match_string_case Hewlett-Packard Company
+    url www.compaq.com
+    url_support support.hp.com
+    name COMPAQ
+
+name CONNECT3D
+    match_string_case CONNECT-3D
+    match_string_case Connect Components Ltd
+    match_string_case CONNECT 3D
+    url www.connect3d.com
+    name CONNECT3D
+
+name COOLERMASTER
+    match_string_case Cooler Master Co., Ltd.
+    match_string_case COOLER MASTER
+    match_string_case COOLER-MASTER
+    url www.coolermaster.com/product/Lines/full-tower
+    url www.coolermaster.com/product/Lines/cpu-air-cooler
+    url www.coolermaster.com/product/Lines/enthusiast-v-series
+    name COOLERMASTER
+
+name COOLINK
+    match_string_case COOL-INK
+    match_string_case Kolink International Corp.
+    url www.coolink.com.tw/products/pro_list.php
+    name COOLINK
+
+name COOLJAG
+    match_string_case CoolJag
+    url www.cooljag.com
+    name COOLJAG
+
+name COPYSTAR FANTOM
+    match_string_case An Chen Computer Co., Ltd.
+    url www.copystar.com.tw/Php/Main.php3?P_ID=FANTOMCD
+    name COPYSTAR FANTOM
+
+name CORERISE
+    match_string_case COMAY
+    match_string_case Corerise Electronics Co., Ltd.
+    url www.corerise.com/en/product.php
+    name CORERISE
+
+name CORSAIR
+    match_string_case Corsair Inc.
+    url www.corsair.com/en/cases
+    url www.corsair.com/en/ssd
+    url www.corsair.com/en/power-supply-units
+    name CORSAIR
+
+name CREATIVE
+    match_string_case Creative Technology Ltd.
+    match_string_case SB PCI
+    match_string_case SB 16
+    match_string_case SB AUDIGY
+    match_string_case SOUND BLASTER
+    match_string_case SB AWE
+    match_string_case SB LIVE
+    match_string_case X-FI
+    match_string_case SB PRO
+    url www.creative.com/soundblaster
+    url us.creative.com
+    url_support support.creative.com
+    url_support support.creative.com/Products/Products.aspx?catid=1
+    name CREATIVE
+
+name CRUCIAL
+    match_string_case CTFDBAC
+    match_string_case CTFDDAA
+    match_string_case CTFDDAK
+    match_string_case CTFDBAA
+    match_string_case Micron Technology, Inc.
+    match_string_case CTFDCAE
+    match_string_case CTFDDAC
+    match_string_case M4-CT
+    url www.crucial.com/store/ssd.aspx
+    name CRUCIAL
+
+name CTX
+    match_string_case CTX International, Inc.
+    url www.ctxintl.com/products
+    url_support www.ctxintl.com/support/download/drivers.htm
+    name CTX
+
+name Cambridge Silicon Radio
+    match_string Cambridge Silicon Radio
+    url www.csr.com
+    name Cambridge Silicon Radio
+    name_short CSR
+    wikipedia Cambridge Silicon Radio
+    ansi_color 0;34;107
+
+name Canon
+    match_string Canon
+    url www.canon.com
+    name Canon
+    ansi_color 0;31;107
+
+name Canonical
+    match_string canonical
+    url www.canonical.com
+    name Canonical
+    ansi_color 0;97;45
 
 name Chengdu Haiguang Integrated Circuit Design
-    name_short Hygon
-    ansi_color 0;97;104
     match_string Hygon
     match_string Higon
-    note x86 processor vendor ID
     match_string HygonGenuine
+    name Chengdu Haiguang Integrated Circuit Design
+    name_short Hygon
+    ansi_color 0;97;104
+    note x86 processor vendor ID
 
 name Chicony
+    match_string Chicony
     url www.chicony.com.tw
+    name Chicony
     wikipedia Chicony Electronics
     ansi_color 0;36;107
-    match_string Chicony
 
 name Cirrus Logic
-    url www.cirrus.com
     match_string Cirrus Logic
+    url www.cirrus.com
+    name Cirrus Logic
 
 name Coreboot Project
-    name_short Coreboot
-    url www.coreboot.org
     match_string coreboot
+    url www.coreboot.org
+    name Coreboot Project
+    name_short Coreboot
+
+name Corsair
+    match_string_case Corsair Inc.
+    url www.corsair.com/en/memory-by-product-family.html
+    name Corsair
 
 name Corsair Components
-    name_short Corsair
-    url www.corsair.com
-    wikipedia Corsair Components
-    ansi_color 0;30;43
     match_string Corsair
     match_string_num_prefix Force MP
     match_string_num_prefix Force LE
+    url www.corsair.com
+    name Corsair Components
+    name_short Corsair
+    wikipedia Corsair Components
+    ansi_color 0;30;43
 
 name Creative Labs
-    url www.creative.com
-    wikipedia Creative Technology
-    ansi_color 0;30;107
     match_string Creative Labs
     match_string Creative Technology
+    url www.creative.com
+    name Creative Labs
+    wikipedia Creative Technology
+    ansi_color 0;30;107
+
+name Crucial
+    match_string_case Micron Technology, Inc.
+    url www.crucial.com
+    name Crucial
 
 name Crucial (Micron)
-    name_short Crucial
-    url www.crucial.com
-    ansi_color 0;37;44
-    match_string Crucial
     match_string Micron/Crucial
+    match_string Crucial
+    url www.crucial.com
+    name Crucial (Micron)
+    name_short Crucial
+    ansi_color 0;37;44
 
 name Cypress Semiconductor
-    name_short Cypress
+    match_string Cypress
     url infineon.com
+    name Cypress Semiconductor
+    name_short Cypress
     wikipedia Cypress Semiconductor
     ansi_color 0;36;107
-    match_string Cypress
+
+name Cyrix
+    match_string_case VIA
+    match_string_case VIA Technologies, Inc.
+    url www.via.com.tw/en/products/processors
+    name Cyrix
+
+name D-LINK
+    match_string_case D-Link Corporation
+    match_string_case D-LINK
+    url www.dlink.com/us/en/home-solutions/connect
+    url_support www.dlink.com/us/en/support
+    name D-LINK
 
 name D-Link
-    url www.dlink.com.tw
-    ansi_color 0;97;44
     match_string D-Link
+    url www.dlink.com.tw
+    name D-Link
+    ansi_color 0;97;44
+
+name DELL
+    match_string_case Dell Computer Corporation
+    match_string_case TRUEMOBILE
+    url accessories.us.dell.com/sna/category.aspx?c=us&category_id=4009&cs=19&l=en&s=dhs
+    url www.dell.com
+    url_support support.dell.com
+    url_support support.dell.com/support/topics/global.aspx/support/product_support/en/monitor_download?c=us&cs=04&l=en&s=bsd
+    name DELL
+
+name DELTA
+    match_string_case Delta Electronics, Inc.
+    url www.delta.com.tw/product/ps/sps/sps_main.asp
+    name DELTA
+
+name DFI
+    match_string_case DFI Corporation
+    url www.dfi.com/products/category.html
+    url_support www.dfi.com/support/download.html
+    name DFI
+
+name DIAMOND
+    match_string_case EDGE 3D
+    match_string_case Diamond Multimedia
+    url www.diamondmm.com
+    url_support www.diamondmm.com/driver-downloads.html
+    name DIAMOND
+
+name DMP Electronics
+    match_string Vortex86 SoC
+    name DMP Electronics
+    note x86 processor vendor ID
+
+name DREVO
+    match_string_case DREVO, Inc.
+    url www.drevo.net/storage
+    name DREVO
+
+name DTK Computer GmbH
+    url www.dtk-computer.de
+    name DTK Computer GmbH
+
+name DYNAPOWER
+    match_string_case DYNA POWER
+    match_string_case DYNA-POWER
+    match_string_case Dynapower Inc.
+    url www.dynapowerusa.com/dyna/product.asp
+    name DYNAPOWER
+
+name DYNATRON
+    match_string_case Dynatron Corporation
+    url www.dynatron-corp.com
+    name DYNATRON
 
 name Debian
-    url www.debian.org
-    ansi_color 0;31;107
     match_string debian
+    url www.debian.org
+    name Debian
+    ansi_color 0;31;107
 
 name Dell Computer
-    name_short Dell
-    url www.dell.com
-    ansi_color 0;97;44
     match_string Dell
-# Dell PowerEdge/PowerVault controller SCSI vendor
     match_string PE/PV
-    note EDID vendor: DEL
     match_string_exact DEL
+    url www.dell.com
+    name Dell Computer
+    name_short Dell
+    ansi_color 0;97;44
+    note EDID vendor: DEL
 
 name Digital Equipment Corporation
-    name_short DEC
-    note Dead; various parts to Intel, Compaq, HP
     match_string_case DEC
     match_string Digital Equipment
     match_string_exact Digital
+    name Digital Equipment Corporation
+    name_short DEC
+    note Dead; various parts to Intel, Compaq, HP
 
-name DMP Electronics
-    note x86 processor vendor ID
-    match_string Vortex86 SoC
+name E-YAMA
+    match_string_case EYAMA
+    match_string_case e-yama
+    url www.e-yama.com/home/productLCD.htm
+    url_support www.e-yama.com/home/support.htm
+    name E-YAMA
 
-# Company defunct, now brand name of Chinese company
+name ECHOAUDIO
+    match_string_case ECHO-AUDIO
+    match_string_case ECHO AUDIO
+    match_string_case Echo Digital Audio Corporation
+    url echoaudio.com/products
+    url_support echoaudio.com/Downloads/Windows_Drivers.php
+    name ECHOAUDIO
+
+name ECS
+    match_string_case Elitegroup Computer Systems
+    match_string_case AG200
+    match_string_case AG80
+    match_string_case AG080
+    match_string_case AG315
+    match_string_case AG400
+    match_string_case AG305
+    url www.ecs.com.tw/ECSWebSite/Product/Product_MB_List.aspx?CategoryID=5&MenuID=8&childid=M_8&LanID=0
+    url www.ecs.com.tw/ECSWebSite/Product/Product_MB_List.aspx?CategoryID=1&MenuID=7&childid=M_7&LanID=0
+    url_support www.ecs.com.tw/ECSWebSite/Downloads/Downloads_list.aspx?MenuID=61&LanID=0
+    name ECS
+
+name EFFICIENTNETWORKS
+    match_string_case EFFICIENT NETWORKS
+    match_string_case SPEEDSTREAM
+    match_string_case Siemens Subscriber Networks, Inc.
+    match_string_case EFFICIENT-NETWORKS
+    url www.efficient.com
+    url_support support.efficient.com
+    name EFFICIENTNETWORKS
+
+name EIZO
+    match_string_case NANAO
+    match_string_case Eizo Nanao Corporation
+    match_string_case T766
+    url www.eizo.com/global/products/flexscan
+    url_support www.eizo.com/global/support/db/products/software
+    name EIZO
+
+name ENERMAX
+    match_string_case Enermax Technology Corporation
+    url www.enermax.com/home.php?fn=eng/product_a&lv0=1
+    url www.enermax.com/home.php?fn=eng/product_a&lv0=2
+    url www.enermax.com/home.php?fn=eng/product_a&lv0=49
+    name ENERMAX
+
+name ENLIGHT
+    match_string_case ENlight Corp.
+    url twe.enlightcorp.com/products/pc/index.php
+    url twe.enlightcorp.com/products/power_supply/index.php
+    name ENLIGHT
+
+name EPI
+    match_string_case ENVISION
+    match_string_case Envision Monitors
+    url www.envisiondisplay.com
+    name EPI
+
+name EPOX
+    match_string_case EPoX International, Inc.
+    url www.epox.com/product.asp?class=MB
+    url_support www.epox.com/downloads.asp?class=BIOS
+    name EPOX
+
+name EPSON
+    match_string_case EPSON
+    match_string_case Epson America, Inc.
+    url www.epson.com
+    name EPSON
+
+name ESI
+    match_string_case ESI Audiotechnik GmbH
+    match_string_case MAYA44
+    url www.esi-audio.com/products
+    url_support download.esi-audio.com
+    name ESI
+
+name ESS
+    match_string_case ESS Technology, Inc.
+    url www.esstech.com
+    name ESS
+
+name EVERCOOL
+    match_string_case EVERCOOL Thermal CO., LTD.
+    url www.evercool.com.tw/pd_cooler.htm
+    name EVERCOOL
+
+name EVGA
+    match_string_case EVGA Corporation
+    match_string EVGA
+    url www.evga.com
+    url eu.evga.com/products/prodlist.asp
+    url eu.evga.com/products/prodlist.asp?switch=5
+    url_support www.evga.com/Support/Drivers/Default.asp
+    url_support www.evga.com/support/drivers
+    name EVGA
+    ansi_color 0;34;107
+
 name Eastman Kodak Company
+    match_string Kodak
+    name Eastman Kodak Company
     name_short Kodak
     wikipedia Kodak
     ansi_color 0;31;43
-    match_string Kodak
 
 name Elitegroup Computer Systems
+    match_string_case ECS
+    name Elitegroup Computer Systems
     name_short ECS
     ansi_color 0;36;41
-    match_string_case ECS
+
+name Elpida
+    match_string_case Hitachi
+    match_string_case Elpida Memory, Inc.
+    url www.elpida.com/en/products/
+    name Elpida
 
 name Embest Technology
-    name_short Embest
-    url www.embest-tech.com
-    ansi_color 0;96;44
     match_string Embest
+    url www.embest-tech.com
+    name Embest Technology
+    name_short Embest
+    ansi_color 0;96;44
 
-name eMPIA Technology
-    url www.empiatech.com.tw
-    match_string_case eMPIA
+name Enhanced Memories
+    match_string_case Enhanced Memory Systems, Inc.
+    url www.edram.com/doc/Products/overview.asp
+    name Enhanced Memories
 
 name Ericsson-LG
+    match_string LG-Ericsson
+    match_string Ericsson-LG
+    name Ericsson-LG
     wikipedia Ericsson-LG
     ansi_color 0;97;43
-    match_string Ericsson-LG
-    match_string LG-Ericsson
-
-name EVGA
-    url www.evga.com
-    ansi_color 0;34;107
-    match_string EVGA
 
 name ExcelStor Technology
-    url www.excelstor.com
     match_string ExcelStor
+    url www.excelstor.com
+    name ExcelStor Technology
+
+name FIC
+    match_string_case First International Computer, Inc.
+    url www.fic.com.tw/product/default.aspx
+    url www.fic.com.tw/product/intel.aspx
+    url_support www.fic.com.tw/download/graphics_cards.aspx
+    url_support www.fic.com.tw/support/motherboard/motherboard_all.aspx
+    name FIC
+
+name FOXCONN
+    match_string_case Foxconn Electronics Inc.
+    url www.foxconnchannel.com/LatestProduct.aspx?T=Motherboard
+    url www.foxconnchannel.com/LatestProduct.aspx?T=GraphicsCard
+    url_support www.foxconnsupport.com/download.aspx
+    name FOXCONN
+
+name FREECOM
+    match_string_case Freecom Technologies
+    url www.freecom.com/Products/Optical-Drives
+    url_support www.freecom.com/Support
+    name FREECOM
+
+name FRONTIER
+    match_string_case Frontier Technology Inc.
+    url www.frontier.com.tw/index.asp?page=products&ID=case
+    url www.frontier.com.tw/index.asp?page=products&ID=power_supply
+    name FRONTIER
+
+name FUSIONIO
+    match_string_case FUSION-IO
+    match_string_case Fusion-io, Inc.
+    url www.fusionio.com/platforms
+    name FUSIONIO
 
 name Faraday Technology
-    name_short Faraday
-    url www.faraday-tech.com
-    wikipedia Faraday Technology
     match_string Faraday Technology
     match_string Faraday
+    url www.faraday-tech.com
+    name Faraday Technology
+    name_short Faraday
+    wikipedia Faraday Technology
 
 name Fujitsu
-    name_short FUJITSU
-    url www.fujitsu.com
-    ansi_color 0;31;107
-    match_string FUJITSU
-    name_short Fujitsu/Siemens
     match_string Fujitsu Siemens
+    match_string FUJITSU
+    url www.fujitsu.com
+    name Fujitsu
+    name_short Fujitsu/Siemens
+    ansi_color 0;31;107
 
 name Fuzhou Rockchip Electronics
-    name_short Rockchip
-    url www.rock-chips.com
-    ansi_color 0;34;43
     match_string Rockchip
+    url www.rock-chips.com
+    name Fuzhou Rockchip Electronics
+    name_short Rockchip
+    ansi_color 0;34;43
+
+name G Skill
+    match_string_case G.Skill International Enterprise
+    url gskill.com/en/catalog/desktop-memory
+    name G Skill
 
 name G.Skill International Enterprise
-    name_short G.Skill
+    match_string G Skill
+    match_string G-Skill
+    match_string G.Skill
     url www.gskill.com
+    name G.Skill International Enterprise
+    name_short G.Skill
     wikipedia G.Skill
     ansi_color 0;31;107
-    match_string G.Skill
-    match_string G-Skill
-    match_string G Skill
+
+name GAINWARD
+    match_string_case Gainward Co., Ltd.
+    url www.gainward.com
+    name GAINWARD
+
+name GATEWAY
+    match_string_case Gateway, Inc.
+    url www.gateway.com
+    url_support support.gateway.com
+    name GATEWAY
 
 name GCT Semiconductor
-    name_short GCT
-    url www.gctsemi.com
-    match_string GCT Semiconductor
     match_string_case GCT
+    match_string GCT Semiconductor
+    url www.gctsemi.com
+    name GCT Semiconductor
+    name_short GCT
+
+name GEIL
+    match_string_case Golden Emperor International Ltd.
+    url www.geil.com.tw/products
+    name GEIL
+
+name GENIUS
+    match_string_case KYE Systems Corp.
+    url www.geniusnet.com.tw
+    name GENIUS
+
+name GIADA
+    match_string_case Shenzen Jehe Technology Development Co.,Ltd.
+    url www.giadatech.com/product.html
+    url_support www.giadatech.com/download.html
+    name GIADA
+
+name GIGABYTE
+    match_string_case GO-B
+    match_string_case GO-C
+    match_string_case GO-R
+    match_string_case GIGA-BYTE
+    match_string_case Gigabyte Technology Co., Ltd.
+    match_string_case GO-W
+    match_string_case GA-660
+    match_string_case GO-D
+    match_string_case GIGA BYTE
+    url www.gigabyte.com/products/main.aspx?s=43
+    url www.gigabyte.com/products/list.aspx?s=51&ck=12
+    url www.gigabyte.com/products/list.aspx?s=51&ck=40
+    url www.gigabyte.com/Motherboard
+    url_support www.gigabyte.com/support-downloads/download-center.aspx
+    url_support www.gigabyte.com/Support
+    name GIGABYTE
+
+name GLACIALTECH
+    match_string_case GlacialTech INC.
+    url www.glacialtech.com
+    name GLACIALTECH
+
+name GLOBALWIN
+    match_string_case GLOBAL WIN
+    match_string_case GLOBAL-WIN
+    match_string_case Global WIN Technology
+    url www.globalwin.com.tw/product.php
+    name GLOBALWIN
+
+name GOODRAM
+    match_string_case Wilk Elektronik S.A.
+    url goodram.com/lang/en/?lang=en
+    name GOODRAM
+
+name GSKILL
+    match_string_case G.SKILL
+    match_string_case G-SKILL
+    match_string_case G.Skill International Enterprise
+    match_string_case G SKILL
+    url gskill.com/en/catalog/ssd
+    name GSKILL
+
+name GVISION
+    match_string_case G-VISION
+    match_string_case G VISION
+    match_string_case GVision-USA Inc.
+    url gvision-usa.com/product-category/desktop-pos-touch-screen-monitors
+    url_support gvision-usa.com/drivers
+    name GVISION
+
+name GeIL
+    match_string_case Golden Emperor International Ltd.
+    url www.geil.com.tw/products
+    name GeIL
 
 name Genius
-    url www.genius.ru
     match_string Genius
+    url www.genius.ru
+    name Genius
 
 name Gigabyte Technology
-    name_short Gigabyte
-    url www.gigabyte.com.tw
-    ansi_color 0;94;47
-    match_string Giga-byte
     match_string Gigabyte
+    match_string Giga-byte
+    url www.gigabyte.com.tw
+    name Gigabyte Technology
+    name_short Gigabyte
+    ansi_color 0;94;47
 
-# NOT Globalsat Group
 name Globalsat Technology
     match_string Globalsat Technology
+    name Globalsat Technology
+
+name GoodRAM
+    match_string_case GOODRAM
+    url www.goodram.com
+    name GoodRAM
 
 name Google
-    url www.google.com
-    ansi_color 0;34;107
     match_string Google
-
-name Harman International
-    name_short Harman
-    url www.harman.com
+    url www.google.com
+    name Google
     ansi_color 0;34;107
-    match_string Harman International
-    match_string Harman
 
-name Harmony Semiconductor
-    name_short Harmony
-    match_string Harmony
+name H+H
+    match_string_case H+H Zentrum für Rechnerkommunikation GmbH
+    match_string_case H + H
+    match_string_case VBE HH
+    url www.virtualcd-online.com/vcd/apps/overview/topview.cfm?lg=0
+    name H+H
 
-name Hewlett-Packard
-    name_short HP
-    url www.hp.com
-    ansi_color 0;97;46
-    match_string Hewlett-Packard
-    match_string_case HP
-    note EDID vendor: HWP
-    match_string_exact HWP
-    note SCSI vendor: hp
-    match_string_exact hp
+name HEWLETTPACKARD
+    match_string_case LASERJET
+    match_string_case DEC
+    match_string_case COMPAQ
+    match_string_case HEWLETT-PACKARD
+    match_string_case DESKJET
+    match_string_case Hewlett-Packard Company
+    match_string_case PHOTOSMART
+    match_string_case HEWLETT PACKARD
+    url www8.hp.com/us/en/products/printers
+    url welcome.hp.com/country/us/eng/prodserv/networking.html
+    url_support welcome.hp.com/country/us/eng/software_drivers.htm
+    name HEWLETTPACKARD
 
-name Hitachi Global Storage Technologies
-    name_short HGST
-    url hgst.com
-    ansi_color 0;97;40
-    match_string HGST a Western Digital Company
-    match_string Hitachi Global Storage
+name HIGHPOINT
+    match_string_case HPT3
+    match_string_case HighPoint Inc.
+    match_string_case ROCKETRAID
+    url www.highpoint-tech.com/USA_new/CS-product_SAS6.htm
+    url_support www.highpoint-tech.com/USA_new/cs-service_support.htm
+    name HIGHPOINT
+
+name HIGHTECH
+    match_string_case Hightech Information System Ltd.
+    match_string_case HIS
+    url www.hisdigital.com/un/product.shtml
+    url_support www.hisdigital.com/un/download.shtml
+    name HIGHTECH
+
+name HITACHI
+    match_string_case IC35
+    match_string_case HITACHI
     match_string_case HGST
+    match_string_case IBM
+    match_string_case IC25
+    match_string_case Hitachi, Ltd.
+    match_string_case Hitachi Global Storage Technologies
+    match_string_case IBM-
+    url www.hitachidisplays.com/products/personal/av
+    url www.hgst.com
+    name HITACHI
 
-name Hitachi-LG Data Storage
-    name_short HLDS
-    url http://hlds.co.kr
-    wikipedia Hitachi-LG Data Storage
-    ansi_color 0;97;105
+name HITACHI-LG
     match_string_case HL-DT-ST
-    match_string_case HLDS
-    match_string_case H-L Data Storage
-    match_string Hitachi-LG
-    match_string Hitachi LG
-    match_string LG (HLDS)
+    match_string_case GOLDSTAR
+    match_string_case LG Electronics
+    match_string_case CRD-8
+    url www.lg.com/us/data-storage
+    url_support www.lg.com/us/support
+    name HITACHI-LG
 
-name Hitachi
-    name_short HITACHI
-    url www.hitachi.com
-    ansi_color 0;30;47
-    match_string Hitachi
-    note EDID vendor: HTC
-    match_string_exact HTC
-
-name Holtek Semiconductor
-    name_short Holtek
-    url www.holtek.com
-    ansi_color 0;34;107
-    match_string Holtek
-
-name Hoodman Corporation
-    name_short Hoodman
-    url www.hoodmanusa.com
-    ansi_color 0;30;43
-    match_string Hoodman
+name HOONTECH
+    match_string_case Hoontech Corp.
+    match_string_case STAUDIO
+    match_string_case ST AUDIO
+    url www.st-audio.de/main.html
+    url_support www.st-audio.de/download
+    name HOONTECH
 
 name HT Micron
     match_string HT Micron
+    name HT Micron
 
-# JEDEC mfgr [0][64]
-name Infineon Technologies
-    name_short infineon
-    url www.infineon.com
-    wikipedia Infineon Technologies
+name HYUNDAI
+    match_string_case Hyundai IT Corp.
+    match_string_case IMAGEQUEST
+    url www.hyundaiq.com
+    name HYUNDAI
+
+name Harman International
+    match_string Harman International
+    match_string Harman
+    url www.harman.com
+    name Harman International
+    name_short Harman
     ansi_color 0;34;107
+
+name Harmony Semiconductor
+    match_string Harmony
+    name Harmony Semiconductor
+    name_short Harmony
+
+name Hewlett-Packard
+    match_string_case HP
+    match_string Hewlett-Packard
+    match_string_exact hp
+    match_string_exact HWP
+    url www.hp.com
+    name Hewlett-Packard
+    name_short HP
+    ansi_color 0;97;46
+    note SCSI vendor: hp
+
+name Hitachi
+    match_string Hitachi
+    match_string_exact HTC
+    url www.hitachi.com
+    name Hitachi
+    name_short HITACHI
+    ansi_color 0;30;47
+    note EDID vendor: HTC
+
+name Hitachi Global Storage Technologies
+    match_string_case HGST
+    match_string HGST a Western Digital Company
+    match_string Hitachi Global Storage
+    url hgst.com
+    name Hitachi Global Storage Technologies
+    name_short HGST
+    ansi_color 0;97;40
+
+name Hitachi-LG Data Storage
+    match_string_case HL-DT-ST
+    match_string_case HLDS
+    match_string_case H-L Data Storage
+    match_string Hitachi LG
+    match_string Hitachi-LG
+    match_string LG (HLDS)
+    url hlds.co.kr
+    name Hitachi-LG Data Storage
+    name_short HLDS
+    wikipedia Hitachi-LG Data Storage
+    ansi_color 0;97;105
+
+name Holtek Semiconductor
+    match_string Holtek
+    url www.holtek.com
+    name Holtek Semiconductor
+    name_short Holtek
+    ansi_color 0;34;107
+
+name Hoodman Corporation
+    match_string Hoodman
+    url www.hoodmanusa.com
+    name Hoodman Corporation
+    name_short Hoodman
+    ansi_color 0;30;43
+
+name IBM
+    match_string_case International Business Machines Corporation
+    url www.printers.ibm.com
+    name IBM
+
+name ICPVORTEX
+    match_string_case ICP VORTEX
+    match_string_case ICP-VORTEX
+    match_string_case ICP vortex Computersysteme GmbH
+    url www.icp-vortex.com
+    name ICPVORTEX
+
+name IEI
+    match_string_case IEI Technology Corp.
+    url www.ieiworld.com
+    url_support www.ieiworld.com/en/support/con_show.php?cid=4
+    name IEI
+
+name IIYAMA
+    match_string_case iiyama Corporation
+    url www.iiyama.com/gl_en/products
+    url_support www.iiyama.com/gl_en/support/downloads
+    name IIYAMA
+
+name INITIO
+    match_string_case Initio Corporation
+    match_string_case ADVANSYS
+    url www.initio.com/Html/Products.asp
+    name INITIO
+
+name INNO3D
+    match_string_case InnoVISION Multimedia Limited
+    match_string_case TORNADO
+    url www.inno3d.com/products.php?refid=1&subid=17
+    url_support www.inno3d.com/support_download.php
+    name INNO3D
+
+name INNODISK
+    match_string_case InnoDisk Corporation
+    url www.innodisk.com/products.jsp
+    name INNODISK
+
+name INSIGNIA
+    match_string_case Insignia
+    url www.insigniaproducts.com/products/televisions.html
+    url_support www.insigniaproducts.com/support.html
+    name INSIGNIA
+
+name INSYDE
+    match_string_case Insyde Software Corp.
+    url www.insydesw.com/products
+    name INSYDE
+
+name INTEL
+    match_string_case XIRCOM
+    match_string_case INTEL(R)
+    match_string_case NVME INTEL
+    match_string_case Intel Corporation
+    match_string_case MOBILE INTEL
+    match_string_case INTEL
+    url www.intel.com/embedded
+    url www.intel.com/products/motherboard/index.htm
+    url www.intel.com/design/flash/nand/productinformation.htm
+    url www.intel.com/products/chipsets
+    url_support support.intel.com/support/graphics
+    url_support downloadcenter.intel.com/default.aspx
+    url_support support.intel.com/support/chipsets
+    url_support www.intel.com/support/network
+    name INTEL
+
+name IOMEGA
+    match_string_case CDRW1
+    match_string_case Iomega Corporation
+    match_string_case EXCELSTOR
+    match_string_case CDRW5
+    match_string_case CDRW8
+    match_string_case CDRW7
+    match_string_case I0MEGA
+    match_string_case ZIPCD
+    match_string_case CDRW2
+    match_string_case CDRW6
+    match_string_case CDRW9
+    match_string_case CDRW3
+    match_string_case CDRW4
+    match_string_case IOMEGA
+    url go.iomega.com
+    url_support iomega-eu-en.custhelp.com
+    name IOMEGA
+
+name ITE
+    match_string_case ITE Tech. Inc.
+    url www.ite.com.tw/en/product
+    url_support www.ite.com.tw
+    name ITE
+
+name Infineon Technologies
     match_string Infineon
     match_string Infineon (former Siemens)
+    url www.infineon.com
+    name Infineon Technologies
+    name_short infineon
+    wikipedia Infineon Technologies
+    ansi_color 0;34;107
 
 name Insyde Software
-    name_short Insyde
-    url www.insyde.com
-    ansi_color 0;30;42
     match_string Insyde
+    url www.insyde.com
+    name Insyde Software
+    name_short Insyde
+    ansi_color 0;30;42
+
+name Intel
+    match_string_case Intel(R)
+    match_string_case Intel Corporation
+    url www.intel.com/en_UK/products/processor
+    url_support ark.intel.com/search.aspx?q=
+    name Intel
 
 name Intel Corporation
-    name_short Intel
-    url www.intel.com
-    wikipedia Intel Corporation
-    ansi_color 0;97;44
     match_string Intel
-
-name Intel Corporation
-    name_short Intel
+    match_string GenuineIntel
     url www.intel.com
     url_support ark.intel.com
+    name Intel Corporation
+    name_short Intel
+    wikipedia Intel Corporation
     ansi_color 0;97;44
-    note x86 processor vendor ID
-    match_string GenuineIntel
 
 name Intellitech
     match_string Intellitech
+    name Intellitech
 
 name International Business Machines Corporation
-    name_short IBM
-    url www.ibm.com
-    ansi_color 0;94;107
-    match_string International Business Machines
     match_string_case IBM
+    match_string International Business Machines
+    url www.ibm.com/products/us
+    url www.ibm.com
+    name International Business Machines Corporation
+    name_short IBM
+    ansi_color 0;94;107
+
+name J&W
+    match_string_case J&W Technology Limited
+    url www.jwele.com/Products.htm
+    url_support www.jwele.com/Support.htm
+    name J&W
+
+name JETWAY
+    match_string_case Jetway Information Co., Ltd.
+    url www.jetway.com.tw/jw/motherboard_list.asp
+    url_support www.jetway.com.tw/jw/download.asp
+    name JETWAY
+
+name JMICRON
+    match_string_case J MICRON
+    match_string_case JMicron Technology Corporation
+    match_string_case J-MICRON
+    url www.jmicron.com
+    name JMICRON
 
 name JMicron Technology
-    name_short JMicron
+    match_string JMicron
+    match_string JMicron USA Technology
+    match_string JMicron Technology
     url www.jmicron.com
+    name JMicron Technology
+    name_short JMicron
     wikipedia JMicron
     ansi_color 0;34;107
-    match_string JMicron Technology
-    match_string JMicron USA Technology
-    match_string JMicron
 
 name KDE
+    match_string_case KDE
     url www.kde.org
+    name KDE
     wikipedia KDE
     ansi_color 0;97;104
-    match_string_case KDE
 
-name Kingston Technology
-    name_short Kingston
-    url www.kingston.com
-    ansi_color 0;31;40
-    match_string Kingston
+name KINGDIAN
+    match_string_case KingDian SSD
+    url www.king-dian.com
+    name KINGDIAN
 
-name Koninklijke Philips
-    name_short PHILIPS
-    url www.philips.com
-    match_string Philips
-    ansi_color 0;30;107
-    match_string Philips
-    note EDID vendor: PHL
-    match_string_exact PHL
+name KINGFAST
+    match_string_case KingFast SSD
+    url www.kingfast-ssd.com
+    name KINGFAST
+
+name KINGMAX
+    match_string_case KINGMAX Technology Inc.
+    url www.kingmax.com/en-global/product/product/index/solid_state_drive
+    name KINGMAX
+
+name KINGSPEC
+    match_string_case Shenzhen KingSpec Electronics Technology Co.,Ltd.
+    url www.kingspec.com/products_list.html
+    name KINGSPEC
+
+name KINGSTON
+    match_string_case Kingston Technology Corporation
+    url www.kingston.com/en/ssd
+    name KINGSTON
+
+name KINGWIN
+    match_string_case Kingwin Inc.
+    url www.kingwin.com/cooling
+    name KINGWIN
+
+name KOBIAN
+    match_string_case MERCURY
+    match_string_case Kobian Group
+    url www.kobian.com/products.php?categoryid=70
+    url www.kobian.com/products.php?productid=163
+    url www.mercury-pc.com/p-mainboards.php
+    url_support www.mercury-pc.com/downloads.php
+    name KOBIAN
+
+name KODAK
+    match_string_case Eastman Kodak Company
+    url www.kodak.com
+    name KODAK
+
+name KONICA
+    match_string_case Konica Business Technologies, Inc.
+    url www.konicabt.com/Products
+    name KONICA
+
+name KTI
+    match_string_case Katron Technologies Inc.
+    url www.ktinet.com/adapters.aspx
+    name KTI
 
 name KVM
-    url www.linux-kvm.org
     match_string KVMKVMKVM
+    url www.linux-kvm.org
+    name KVM
 
 name KYE Systems
-    name_short KYE
-    url www.genius-kye.com
     match_string_case KYE
+    url www.genius-kye.com
+    name KYE Systems
+    name_short KYE
 
-name Lenovo Group
-    name_short Lenovo
-    url www.lenovo.com
-    url_support support.lenovo.com
-    wikipedia Lenovo
-    ansi_color 0;97;41
-    match_string lenovo
-    note EDID vendor: LEN
-    match_string_exact LEN
+name KYOCERA
+    match_string_case Kyocera Mita Corporation
+    url www.kyoceramita.com
+    name KYOCERA
 
-name Lexmark
+name KingboMars
+    match_string_case Kingbomars Technology Co.,Ltd.
+    url www.kingbomars.com/enproducts.asp?enBigClassName=Memory
+    name KingboMars
+
+name Kingbox
+    match_string_case KINGBOX Technology Co.,LTD.
+    url www.kingbox.com.tw
+    name Kingbox
+
+name Kingmax
+    match_string_case KINGMAX Technology Inc.
+    url www.kingmax.com/en-global/product/product/index/memory_module
+    name Kingmax
+
+name Kingston
+    match_string_case Kingston Technology Corporation
+    url www.kingston.com/en/memory
+    name Kingston
+
+name Kingston Technology
+    match_string Kingston
+    url www.kingston.com
+    name Kingston Technology
+    name_short Kingston
+    ansi_color 0;31;40
+
+name Koninklijke Philips
+    match_string Philips
+    match_string_exact PHL
+    url www.philips.com
+    name Koninklijke Philips
+    name_short PHILIPS
+    ansi_color 0;30;107
+    note EDID vendor: PHL
+
+name LACIE
+    match_string_case LaCie
+    url www.lacie.com/gb/en
+    url_support www.lacie.com/gb/en/support/displays
+    name LACIE
+
+name LEADTEK
+    match_string_case Leadtek Research Inc.
+    match_string_case WINFAST
+    url www.leadtek.com/eng/product/3d_graphic/1/index.aspx
+    url www.leadtek.com/eng/product/virtual_DS/24/index.aspx
+    url_support www.leadtek.com/eng/support/download.aspx
+    name LEADTEK
+
+name LENOVO
+    match_string_case Lenovo
+    url www.lenovo.com/products/us
+    url_support support.lenovo.com/en_US
+    name LENOVO
+
+name LEXMARK
+    match_string_case LEXMARK
+    match_string_case Lexmark International
     url www.lexmark.com
-    match_string Lexmark
+    name LEXMARK
 
 name LG Display
-    name_short LG Display
-    url www.lgdisplay.com
-    ansi_color 0;97;41
-    match_string LG Display
     match_string LG.Philips
-    note EDID vendor: LGD
+    match_string LG Display
     match_string_exact LGD
-
-name LG Electronics (formerly Goldstar)
-    name_short LG (Goldstar)
-    url www.lge.com
+    url www.lgdisplay.com
+    name LG Display
+    name_short LG Display
     ansi_color 0;97;41
-    match_string Goldstar
+    note EDID vendor: LGD
 
 name LG Electronics
-    name_short LG
-    url www.lge.com
-    ansi_color 0;97;41
-    match_string LG Electronics [Lucky Goldstar Co. Ltd]
+    match_string_case LG
     match_string Lucky Goldstar
+    match_string LG Electronics [Lucky Goldstar Co. Ltd]
     match_string Lucky-Goldstar
     match_string LG Semi
-    match_string_case LG
+    url www.lge.com
+    name LG Electronics
+    name_short LG
+    ansi_color 0;97;41
+
+name LG Electronics (formerly Goldstar)
+    match_string Goldstar
+    url www.lge.com
+    name LG Electronics (formerly Goldstar)
+    name_short LG (Goldstar)
+    ansi_color 0;97;41
+
+name LGIBM
+    match_string_case FLATRON
+    match_string_case LG Electronics
+    url www.lg.com/us/monitors
+    url_support www.lg.com/us/support
+    name LGIBM
 
 name LIG Nex1
-    wikipedia LIG Nex1
+    match_string NEX1 Future
     match_string LIG Nex1
     match_string LG Innotek
-    match_string NEX1 Future
+    name LIG Nex1
+    wikipedia LIG Nex1
 
-name Linaro
-    url linaro.org
-    wikipedia Linaro
-    ansi_color 0;32;107
-    match_string Linaro
-
-name Linux Foundation
-    name_short Linux
-    ansi_color 0;33;40
-    match_string Linux Foundation
-    match_string Linux
+name LINKSYS
+    match_string_case Linksys Group Inc.
+    match_string_case LNE100
+    url www.linksys.com/en-eu/products/family
+    url_support support.linksys.com
+    name LINKSYS
 
 name LITE-ON
-    url www.liteonit.com
-    ansi_color 0;97;104
+    match_string_case Lite-On Technology Corp
     match_string_case LITE-ON
+    url www.liteon.com/page.aspx?id=217b8d96-16fe-4d75-9128-8a2b309ee9cb
+    url www.liteonit.com
+    url_support www.liteon.com/index.aspx?lang=en
+    name LITE-ON
+    ansi_color 0;97;104
+
+name LITEON
+    match_string_case Lite-On IT Corporation
+    match_string_case LITE-ON
+    url www.liteonssd.com
+    name LITEON
+
+name LOGITECH
+    match_string_case V500
+    match_string_case MX300
+    match_string_case MX700
+    match_string_case MX400
+    match_string_case MX900
+    match_string_case MX500
+    match_string_case MX910
+    match_string_case V100
+    match_string_case MX310
+    match_string_case MX510
+    match_string_case Logitech, Inc.
+    match_string_case MX620
+    match_string_case MX610
+    match_string_case V270
+    match_string_case LOGITECH
+    match_string_case V200
+    match_string_case MX1000
+    match_string_case MX710
+    match_string_case MX518
+    match_string_case V150
+    match_string_case V450
+    url www.logitech.com/index.cfm/mice_pointers/&cl=us,en
+    url_support www.logitech.com/index.cfm/support_downloads/downloads/&cl=us,en
+    name LOGITECH
+
+name LSI
+    match_string_case 3WARE
+    match_string_case MYLEX
+    match_string_case LSI Corporation
+    url www.lsi.com/channel/products
+    url_support www.lsi.com/support/Pages/download-search.aspx
+    name LSI
+
+name Lenovo Group
+    match_string lenovo
+    match_string_exact LEN
+    url www.lenovo.com
+    url_support support.lenovo.com
+    name Lenovo Group
+    name_short Lenovo
+    wikipedia Lenovo
+    ansi_color 0;97;41
+    note EDID vendor: LEN
+
+name Lexmark
+    match_string Lexmark
+    url www.lexmark.com
+    name Lexmark
+
+name Linaro
+    match_string Linaro
+    url linaro.org
+    name Linaro
+    wikipedia Linaro
+    ansi_color 0;32;107
+
+name Linux Foundation
+    match_string Linux
+    match_string Linux Foundation
+    name Linux Foundation
+    name_short Linux
+    ansi_color 0;33;40
 
 name Logitech International
+    match_string Logitech
+    url www.logitech.com
+    name Logitech International
     name_short logitech
     ansi_color 0;30;107
-    url www.logitech.com
-    match_string Logitech
-
-name Longsys (formerly Micron Lexar)
-    name_short longsys/Lexar
-    url lexar.com
-    wikipedia Lexar
-    ansi_color 0;31;40
-    match_string Lexar
 
 name Longsys
-    name_short longsys
-    url longsys.com
-    ansi_color 0;31;107
     match_string Longsys
+    url longsys.com
+    name Longsys
+    name_short longsys
+    ansi_color 0;31;107
+
+name Longsys (formerly Micron Lexar)
+    match_string Lexar
+    url lexar.com
+    name Longsys (formerly Micron Lexar)
+    name_short longsys/Lexar
+    wikipedia Lexar
+    ansi_color 0;31;40
+
+name MADGE
+    match_string_case Madge Networks N.V.
+    url www.madge.com/products.asp
+    url_support www.madge.com/downloads-software.asp
+    name MADGE
+
+name MAG
+    match_string_case MAG Technology Co., Ltd.
+    url www.maginnovision.com/Products/Product_SubCat.aspx?ii=1459
+    url_support www.maginnovision.com/Support/Downloads.aspx
+    name MAG
+
+name MAGICPRO
+    match_string_case Magic-Pro Computer (Asia) Co. Ltd
+    match_string_case MAGIC PRO
+    match_string_case MAGIC-PRO
+    url www.magic-pro.com/index.php?route=product/category&path=66
+    url_support www.magic-pro.com/?route=information/information&information_id=23
+    name MAGICPRO
+
+name MARIAN
+    match_string_case MARIAN SEK'D Vertrieb GmbH
+    url www.marian.de/english/main.htm
+    url_support www.marian.de/english/downloads.htm
+    name MARIAN
+
+name MARVELL
+    match_string_case Marvell Semiconductor, Inc.
+    match_string_case MARVELL
+    url www.marvell.com/storage
+    url www.marvell.com/transceivers
+    url_support www.marvell.com/support
+    name MARVELL
+
+name MATROX
+    match_string_case Matrox Graphics Inc.
+    match_string_case MGA MYSTIQUE
+    match_string_case MGA MILLENNIUM
+    match_string_case MGA-G
+    url www.matrox.com/graphics/en/products
+    url_support www.matrox.com/graphics/en/support/drivers
+    name MATROX
+
+name MATSONIC
+    match_string_case Matsonic, Inc.
+    url www.matsonic.com
+    name MATSONIC
+
+name MAXTOR
+    match_string_case QUANTUM
+    match_string_case MAXTOR
+    match_string_case Seagate Technology LLC
+    url www.maxtor.com/en
+    name MAXTOR
+
+name MEDION
+    match_string_case Medion AG
+    url www.medion.de
+    url_support www.medion.de/service/downloads.html
+    name MEDION
+
+name MEMOREX
+    match_string_case Memorex Products, Inc.
+    url www.memorex.com/en-us/Digital-Storage/CD--DVD-Drives
+    url_support www.memorex.com/en-us/Support
+    name MEMOREX
+
+name MICROCOM
+    match_string_case Fincom International a.s.
+    url www.microcom-ce.com/category.php?icid=1
+    url_support www.microcom-ce.com/download.php
+    name MICROCOM
+
+name MICRON
+    match_string_case MTFDDAK
+    match_string_case MTFDBAC
+    match_string_case MTFDCAE
+    match_string_case MTFDDAA
+    match_string_case MTFDBAA
+    match_string_case MTFDDAC
+    url www.micron.com/products/solid-state-storage
+    name MICRON
+
+name MICROSOFT
+    match_string_case MICROSOFT
+    match_string_case Microsoft Corporation
+    url www.microsoft.com/hardware/en-us/mice
+    url www.microsoft.com/virtualpc
+    url_support www.microsoft.com/hardware/en-us/downloads
+    name MICROSOFT
+
+name MICROSTAR
+    match_string_case MICRO STAR
+    match_string_case MICRO-STAR
+    match_string_case Micro-Star Int'l Co.,Ltd.
+    match_string_case MSI
+    url www.msi.com/Graphics-cards
+    url www.msi.com/Motherboards
+    url_support www.msi.com/support#support_download
+    name MICROSTAR
+
+name MINOLTA
+    match_string_case MINOLTA
+    match_string_case MINOLTA-QMS, Inc.
+    url www.minolta-qms.com/products
+    name MINOLTA
+
+name MIRO
+    match_string_case miro Displays GmbH
+    url www.miro.de/newWeb/frameset/frames/index.php?lang=en
+    name MIRO
+
+name MITSUBISHI
+    match_string_case Mitsubishi Electric Visual Solutions America, Inc.
+    url www.mitsubishi-presentations.com/showroom/?type=monitors
+    url_support www.mitsubishi-presentations.com/product-support/downloads
+    name MITSUBISHI
+
+name MITSUMI
+    match_string_case Mitsumi Electric Co., Ltd.
+    url www.mitsumi.co.jp/Catalog/index/indexpro_e.html
+    name MITSUMI
+
+name MOREX
+    match_string_case Morex Information Ent., Co., Ltd.
+    url www.procase.com.tw
+    name MOREX
+
+name MS C/DVD-ROM
+    match_string_case Microsoft Corporation
+    url www.microsoft.com/virtualpc
+    name MS C/DVD-ROM
+
+name MSC Vertriebs
+    match_string_case MSC Technologies
+    url www.mscembedded.com
+    name MSC Vertriebs
+
+name MUSHKIN
+    match_string_case Mushkin, Inc.
+    match_string_case MKNSSD
+    url poweredbymushkin.com/index.php/products/solid-state-drives
+    name MUSHKIN
+
+name MXIC
+    match_string_case Macronix International Co., Ltd.
+    match_string_case MACRONIX
+    url www.macronix.com
+    name MXIC
+
+name MXSSD
+    match_string_case Mach Xtreme Technology Inc.
+    url www.mx-technology.com/en/product/ssd.php
+    name MXSSD
 
 name Magewell
-    url www.magewell.com
-    ansi_color 0;34;107
     match_string Magewell
+    url www.magewell.com
+    name Magewell
+    ansi_color 0;34;107
 
 name Marvell (formerly Cavium)
-    name_short Marvell (Cavium)
+    match_string Cavium
     url cavium.com
+    name Marvell (formerly Cavium)
+    name_short Marvell (Cavium)
     wikipedia Cavium
     ansi_color 0;97;41
-    match_string Cavium
 
 name Marvell Technology Group
-    name_short Marvell
+    match_string Marvell
     url www.marvell.com
+    name Marvell Technology Group
+    name_short Marvell
     wikipedia Marvell Technology Group
     ansi_color 0;97;41
-    match_string Marvell
 
 name Maxtor
-    url www.maxtor.com
     match_string Maxtor
-
-name AO MCST
-    name_short MCST
-    url www.mcst.ru
-    url_support www.mcst.ru/support
-    ansi_color 0;34;107
-    match_string EL2S4
-    match_string MBE1C-PC
-    match_string MONOCUB
-    match_string E8C-SWTX
-    match_string_prefix MBE8C-PC
-    match_string Elbrus-MCST
-
-name AO MCST
-    name_short Information:
-    url www.mcst.ru/elbrus-4c
-    match_string Elbrus-4C
-    url www.mcst.ru/elbrus-1c-plus
-    match_string Elbrus-1C+
-    url www.mcst.ru/elbrus-2c-plus
-    match_string Elbrus-2C+
-    url www.mcst.ru/elbrus-8c
-    match_string Elbrus-8C
-    url www.mcst.ru/elbrus-8sv
-    match_string Elbrus-8CB
-    url www.mcst.ru/elbrus-12c
-    match_string Elbrus-12C
-    url www.mcst.ru/elbrus-16c
-    match_string Elbrus-16C
-    url www.mcst.ru/elbrus-2c3
-    match_string Elbrus-2C3
+    url www.maxtor.com
+    name Maxtor
 
 name MediaTek
+    match_string MediaTek
     url www.mediatek.com
+    name MediaTek
     wikipedia MediaTek
     ansi_color 0;97;43
-    match_string MediaTek
 
 name Memorex Products
-    name_short Memorex
-    url www.memorex.com
     match_string Memorex
+    url www.memorex.com
+    name Memorex Products
+    name_short Memorex
 
 name Micro-Star International
-    name_short MSI
+    match_string_case MSI
+    match_string Micro Star
+    match_string Micro-Star Int'l Co.,Ltd.
     url www.msi.com
     url_support www.msi.com/support
+    name Micro-Star International
+    name_short MSI
     ansi_color 0;97;40
-    match_string Micro-Star Int'l Co.,Ltd.
-    match_string Micro Star
-    match_string_case MSI
 
 name Microchip Technology (formerly Standard Microsystems)
+    match_string Standard Microsystems
+    name Microchip Technology (formerly Standard Microsystems)
     name_short SMC
     ansi_color 0;37;40
-    match_string Standard Microsystems
+
+name Micron
+    url www.micron.com/products/dram-modules
+    name Micron
 
 name Micron Technology
-    name_short Micron
-    url www.micron.com
-    ansi_color 0;34;47
     match_string Micron
-
-name Microsoft Hyper-V
-    url www.microsoft.com
-    match_string Microsoft Hv
+    url www.micron.com
+    name Micron Technology
+    name_short Micron
+    ansi_color 0;34;47
 
 name Microsoft
-    url www.microsoft.com
-    ansi_color 0;97;40
     match_string Microsoft
+    url www.microsoft.com
+    name Microsoft
+    ansi_color 0;97;40
 
-name Murata Manufacturing (formerly SyChip Electronic Technology)
-    name_short Murata (SyChip)
-    ansi_color 0;31;107
-    match_string SyChip
+name Microsoft Hyper-V
+    match_string Microsoft Hv
+    url www.microsoft.com
+    name Microsoft Hyper-V
 
 name Murata Manufacturing
-    name_short Murata
+    match_string Murata
     url www.murata.com
+    name Murata Manufacturing
+    name_short Murata
     wikipedia Murata Manufacturing
     ansi_color 0;31;107
-    match_string Murata
 
-name National Semiconductor
-    name_short NSC
-    note x86 processor vendor ID
-    match_string Geode by NSC
+name Murata Manufacturing (formerly SyChip Electronic Technology)
+    match_string SyChip
+    name Murata Manufacturing (formerly SyChip Electronic Technology)
+    name_short Murata (SyChip)
+    ansi_color 0;31;107
+
+name NEC
+    match_string_case NEC Display Solutions
+    url www.necdisplay.com/Products
+    url_support www.necdisplay.com/downloads
+    name NEC
 
 name NEC Corporation
-    name_short NEC
+    match_string_case NEC
     url www.nec.com
+    name NEC Corporation
+    name_short NEC
     ansi_color 0;94;107
     note EDID vendor: NEC
-    match_string_case NEC
 
-name NexGen
-    note x86 processor vendor ID
-    match_string NexGenDriven
+name NERO IMAGEDRIVE
+    match_string_case Ahead Software
+    url www.nero.com/en
+    name NERO IMAGEDRIVE
 
-name nVidia Corporation
-    name_short nVidia
-    url www.nvidia.com
-    wikipedia Nvidia
-    ansi_color 0;97;42
-    match_string nVidia
+name NETGEAR
+    match_string_case NETGEAR
+    url www.netgear.com/home/products
+    url_support support.netgear.com
+    name NETGEAR
+
+name NETWORKEVERYWHERE
+    match_string_case NETWORK-EVERYWHERE
+    match_string_case Network Everywhere
+    match_string_case NETWORK EVERYWHERE
+    url www.networkeverywhere.com/products/networkcard.asp
+    url_support www.networkeverywhere.com/support
+    name NETWORKEVERYWHERE
+
+name NORTHQ
+    match_string_case NorthQ APS
+    url www.northq.com/products
+    name NORTHQ
+
+name NU, Inc.
+    url www.nu-global.com
+    name NU, Inc.
+
+name NVIDIA
+    match_string_case QUADRO V
+    match_string_case NV47
+    match_string_case NV18
+    match_string_case NV25
+    match_string_case ION2
+    match_string_case NV11
+    match_string_case NVIDIA Corporation
+    match_string_case QUADRO P
+    match_string_case QUADRO NVS
+    match_string_case NV38
+    match_string_case NV41
+    match_string_case NV40
+    match_string_case QUADRO FX
+    match_string_case QUADRO4
+    match_string_case NV15
+    match_string_case TESLA
+    match_string_case NV46
+    match_string_case QUADRO M
+    match_string_case NV35
+    match_string_case NV48
+    match_string_case NV10
+    match_string_case NV34
+    match_string_case NV44
+    match_string_case NV45
+    match_string_case NV31
+    match_string_case NV42
+    match_string_case ION
+    match_string_case NV28
+    match_string_case GEFORCE
+    match_string_case NV36
+    match_string_case NV20
+    match_string_case NV43
+    match_string_case NV17
+    match_string_case NV30
+    match_string_case DELL 8100
+    match_string_case QUADRO K
+    url www.nvidia.com/page/products.html
+    url www.nvidia.com/page/mobo.html
+    url_support www.nvidia.com/content/drivers/drivers.asp
+    name NVIDIA
 
 name NXP Semiconductors
-    name_short NXP
-    url www.nxp.com
     match_string_case NXP
+    url www.nxp.com
+    name NXP Semiconductors
+    name_short NXP
+
+name Nanya
+    match_string_case Nanya Technology Corp.
+    url www.nanya.com/index.aspx
+    name Nanya
+
+name National Semiconductor
+    match_string Geode by NSC
+    name National Semiconductor
+    name_short NSC
+    note x86 processor vendor ID
+
+name NexGen
+    match_string NexGenDriven
+    name NexGen
+    note x86 processor vendor ID
+
+name OCZ Technology Group, Inc.
+    url www.ocztechnology.com/products/solid_state_drives
+    url www.ocztechnology.com/products/memory/
+    name OCZ Technology Group, Inc.
+
+name OKI
+    match_string_case Oki Europe Ltd
+    match_string_case OKI OL-
+    url europe.oki.com/fcgi-bin/public.fcgi?pid=2&cid=1&chid=1
+    name OKI
+
+name OKIDATA
+    match_string_case Oki Data Americas, Inc.
+    url www.okidata.com/mkt/html/nf/Products.html
+    name OKIDATA
+
+name OLIVETTI
+    match_string_case Olivetti Tecnost S.p.A.
+    url www.olivettitecnost.com
+    name OLIVETTI
+
+name ONDA
+    match_string_case Onda Technology Corporation
+    url www.onda.cn/MotherBoard.aspx
+    url_support www.onda.cn/Services.aspx
+    name ONDA
+
+name OPTIARC
+    match_string_case NEC
+    match_string_case _NEC
+    match_string_case Sony Optiarc
+    url www.sony-optiarc.us
+    name OPTIARC
+
+name OVISLINK
+    match_string_case OvisLink Corporation
+    url www.ovislink.com.tw/products.htm
+    url_support www.ovislink.com.tw/download.htm
+    name OVISLINK
 
 name Oculus VR
-    name_short Oculus
-    url www.oculus.com
-    ansi_color 0;97;100
-    wikipedia Oculus VR
     match_string Oculus VR
     match_string Oculus
-
-name Oracle Corporation (formerly InnoTek Systemberatung)
-    name_short Oracle (InnoTek)
-    url www.virtualbox.org/wiki/innotek
-    url_support www.virtualbox.org
-    ansi_color 0;97;41
-    match_string InnoTek
-    match_string VirtualBox
-    match_string_case VBOX
-
-name Oracle Corporation (formerly Sun Microsystems)
-    name_short Oracle (Sun)
-    url www.oracle.com
-    wikipedia Sun Microsystems
-    ansi_color 0;97;41
-    match_string Sun Microsystems
-    match_string Oracle Corporation (former Sun Microsystems)
+    url www.oculus.com
+    name Oculus VR
+    name_short Oculus
+    ansi_color 0;97;100
+    wikipedia Oculus VR
 
 name Oracle Corporation
-    name_short Oracle
-    url www.oracle.com
-    ansi_color 0;97;41
     match_string Oracle
+    url www.oracle.com
+    name Oracle Corporation
+    name_short Oracle
+    ansi_color 0;97;41
+
+name Oracle Corporation (formerly InnoTek Systemberatung)
+    match_string_case VBOX
+    match_string VirtualBox
+    match_string InnoTek
+    url www.virtualbox.org/wiki/innotek
+    url_support www.virtualbox.org
+    name Oracle Corporation (formerly InnoTek Systemberatung)
+    name_short Oracle (InnoTek)
+    ansi_color 0;97;41
+
+name Oracle Corporation (formerly Sun Microsystems)
+    match_string Oracle Corporation (former Sun Microsystems)
+    match_string Sun Microsystems
+    url www.oracle.com
+    name Oracle Corporation (formerly Sun Microsystems)
+    name_short Oracle (Sun)
+    wikipedia Sun Microsystems
+    ansi_color 0;97;41
+
+name Other World Computing
+    url eshop.macsales.com/shop/SSD/OWC
+    name Other World Computing
 
 name Ours Technology
-    url www.oti.com.tw
     match_string_case OTi
+    url www.oti.com.tw
+    name Ours Technology
 
-name Panasonic Industry Company
-# AKA: Matsushita Electric Industrial
-    name_short Panasonic
-    url www.panasonic.com
-    ansi_color 0;30;107
-    match_string Panasonic
-    match_string Matsushita
-    match_string MATSHITA
-    note EDID vendor: MEI
-    match_string_exact MEI
+name PANASONIC
+    match_string_case Matsushita Electric Industrial Co., Ltd.
+    match_string_case MATSHITA
+    url www.panasonic.com/business/office/cat_printers.asp
+    url www.panasonic.com/industrial/optical-drives
+    url www.panasonic.com/business/provideo/cat_displays.asp
+    url_support www.panasonic.com/business/provideo/support/software_downloads.asp
+    name PANASONIC
 
-name Parallels
-    url www.parallels.com
-    match_string lrpepyh vr
+name PANT. HP
+    match_string_case COMPAQ
+    match_string_case Hewlett-Packard Company
+    url www8.hp.com/us/en/products/monitors
+    url_support welcome.hp.com/country/us/eng/software_drivers.htm
+    name PANT. HP
 
-name Patriot Memory
-    name_short Patriot
-    url www.patriotmemory.com
-    wikipedia Patriot Memory
-    ansi_color 0;97;44
-    match_string Patriot Memory
+name PATRIOT
+    match_string_case Patriot Memory
+    url patriotmemory.com/product-category/solid-state-drives
+    name PATRIOT
 
-name Phison Electronics Corporation
-    name_short Phison
-    url www.phison.com
-    wikipedia Phison
-    ansi_color 0;33;44
-    match_string Phison
+name PCCHIPS
+    match_string_case PC CHIPS
+    match_string_case PC-CHIPS
+    url www.pcchips.com.tw/PCCWebSite/Products/ProductList.aspx?CategoryID=1&MenuID=7&LanID=0
+    url_support www.pcchips.com.tw/PCCWebSite/Downloads/Category_Download.aspx?MenuID=6&LanID=0
+    name PCCHIPS
 
-name Phoenix Technologies
-    name_short Phoenix
-    url www.phoenix.com
-    ansi_color 0;31;47
-    match_string Phoenix
+name PCPARTNER
+    match_string_case PC PARTNER
+    match_string_case PC Partner Limited
+    match_string_case PC-PARTNER
+    url www.pcpartner.com
+    name PCPARTNER
 
-name Pioneer
-    url www.pioneer-eur.com
-    match_string Pioneer
-    note EDID vendor: PIO
-    match_string_exact PIO
+name PCWARE
+    match_string_case PCWARE
+    match_string_case PC WARE
+    match_string_case PC-WARE
+    url www.pcwarebr.com.br/produtos.php
+    name PCWARE
 
-name Planar
-    name_short PLANAR
-    url www.planar.com
-    ansi_color 0;91;40
-    match_string Planar
+name PEGATRON
+    match_string_case Pegatron Corp.
+    url www.pegatroncorp.com
+    name PEGATRON
 
-name Plextor
-    url www.plextor.be
-    match_string Plextor
+name PHILIPS
+    match_string_case Royal Philips Electronics
+    url www.storageupdates.philips.com
+    url www.usa.philips.com/c/pc-monitor/22098/cat
+    url_support www.support.philips.com
+    name PHILIPS
+
+name PHILIPS & LITE-ON
+    match_string_case ATAPI IHDS
+    match_string_case SLIMTYPE EH
+    match_string_case ATAPI IHAS
+    match_string_case PLDS Corporation
+    match_string_case PLDS
+    match_string_case SOSW-
+    match_string_case LITEON
+    match_string_case ATAPI IHBS
+    match_string_case SLIMTYPE EN
+    match_string_case SOHW-
+    match_string_case ATAPI IHES
+    match_string_case ATAPI IHAP
+    match_string_case ATAPI IHDP
+    match_string_case SLIMTYPE ES
+    match_string_case ATAPI IHOS
+    match_string_case SLIMTYPE ET
+    match_string_case LITE-ON
+    url www.pldsnet.com
+    name PHILIPS & LITE-ON
+
+name PHITRONICS
+    match_string_case Phitronics Ltda
+    url www.phitronics.com.br/produtos.php
+    url_support www.phitronics.com.br/suporte.php
+    name PHITRONICS
+
+name PINE
+    match_string_case PINE Technology
+    url www.pinegroup.com
+    name PINE
+
+name PIONEER
+    match_string_case Pioneer High Fidelity Taiwan co., Ltd.
+    url www.pioneer-optical.eu/Products_Index.asp
+    url_support www.pioneer-optical.eu/Download_Firmware-Download.asp
+    name PIONEER
+
+name PLANAR
+    match_string_case Planar Systems, Inc.
+    url www.planar.com/products
+    url_support www.planar.com/support
+    name PLANAR
+
+name PLEXTOR
+    match_string_case Plextor Europe
+    match_string_case Plextor
+    url www.plextor-digital.com/index.php/en/Internal-Blu-ray
+    url www.goplextor.com/OutProducts/Spot
+    url_support www.plextor-digital.com/index.php/component/option,com_jdownloads/Itemid,55
+    name PLEXTOR
+
+name PNY
+    match_string_case PNY Technologies, Inc.
+    url www3.pny.com/Product_Catalog.aspx
+    url_support www3.pny.com/support/support.aspx
+    name PNY
+
+name PNY Electronics
+    match_string_case PNY Technologies, Inc.
+    url www3.pny.com/Categories/MemoryUpgrades.aspx?Category_ID=10
+    name PNY Electronics
 
 name PNY Technologies
-    name_short PNY
+    match_string_case PNY
     url www.pny.com
+    name PNY Technologies
+    name_short PNY
     wikipedia PNY Technologies
     ansi_color 0;97;100
-    match_string_case PNY
+
+name POWERCOOLER
+    match_string_case POWER COOLER
+    match_string_case POWER-COOLER
+    match_string_case Powercooler Enterprise Co., Ltd.
+    url www.powercooler.com.tw
+    name POWERCOOLER
+
+name POWERCYBER
+    match_string_case Prestigio
+    match_string_case POWER-CYBER
+    match_string_case POWER CYBER
+    match_string_case PRESTIGIO
+    url www.prestigio.com/products/show.cfm/monitor
+    url_support www.prestigio.com/products/downloads.cfm/monitor
+    name POWERCYBER
+
+name PROMISE
+    match_string_case PROMISE
+    match_string_case Promise Technology, Inc.
+    url promise.com/storage/raid_all.aspx?region=en-global&m=147&statistic=allProduct
+    url_support promise.com/support/download.aspx?region=en-global&m=93
+    name PROMISE
+
+name Panasonic Industry Company
+    match_string MATSHITA
+    match_string Panasonic
+    match_string Matsushita
+    match_string_exact MEI
+    url www.panasonic.com
+    name Panasonic Industry Company
+    name_short Panasonic
+    ansi_color 0;30;107
+    note EDID vendor: MEI
+
+name Parallels
+    match_string lrpepyh vr
+    url www.parallels.com
+    name Parallels
+
+name Patriot Memory
+    match_string Patriot Memory
+    url www.patriotmemory.com
+    url patriotmemory.com/product-category/computer-memory
+    name Patriot Memory
+    name_short Patriot
+    wikipedia Patriot Memory
+    ansi_color 0;97;44
+
+name Phison Electronics Corporation
+    match_string Phison
+    url www.phison.com
+    name Phison Electronics Corporation
+    name_short Phison
+    wikipedia Phison
+    ansi_color 0;33;44
+
+name Phoenix Technologies
+    match_string Phoenix
+    url www.phoenix.com
+    name Phoenix Technologies
+    name_short Phoenix
+    ansi_color 0;31;47
+
+name Pioneer
+    match_string Pioneer
+    match_string_exact PIO
+    url www.pioneer-eur.com
+    name Pioneer
+    note EDID vendor: PIO
+
+name Planar
+    match_string Planar
+    url www.planar.com
+    name Planar
+    name_short PLANAR
+    ansi_color 0;91;40
+
+name Plextor
+    match_string Plextor
+    url www.plextor.be
+    name Plextor
+
+name Power Quotient International Co., Ltd.
+    url www.pqi.com.tw/product.asp?cate1=4
+    name Power Quotient International Co., Ltd.
+
+name QLOGIC
+    match_string_case Q LOGIC
+    match_string_case QLogic Corp.
+    match_string_case Q-LOGIC
+    url www.qlogic.com/Products/adapters/Pages/FibreChannelAdapters.aspx
+    url_support driverdownloads.qlogic.com/QLogicDriverDownloads_UI/DefaultNewSearch.aspx
+    name QLOGIC
+
+name QSI
+    match_string_case Quanta Storage Inc.
+    url www.qsinc.com.tw
+    name QSI
+
+name QUALCOMM
+    match_string_case Qualcomm Technologies, Inc.
+    match_string_case ATHEROS
+    url www.qualcomm.com/products/networking
+    url_support www.qualcomm.com
+    name QUALCOMM
+
+name Qimonda
+    match_string_case Qimonda AG
+    match_string_case Infineon
+    url www.qimonda.com/computing-dram
+    name Qimonda
 
 name Qualcomm (formerly Atheros)
-    name_short Qualcomm (Atheros)
+    match_string Atheros
+    match_string Qualcomm Atheros
     url www.qualcomm.com
+    name Qualcomm (formerly Atheros)
+    name_short Qualcomm (Atheros)
     wikipedia Qualcomm Atheros
     ansi_color 0;94;47
-    match_string Qualcomm Atheros
-    match_string Atheros
 
 name Qualcomm Incorporated
-    name_short Qualcomm
-    url www.qualcomm.com
-    ansi_color 0;94;47
     match_string Qualcomm
+    url www.qualcomm.com
+    name Qualcomm Incorporated
+    name_short Qualcomm
+    ansi_color 0;94;47
 
 name Quantum
-    url www.quantum.com
     match_string QUANTUM
+    url www.quantum.com
+    name Quantum
+
+name RADEON
+    match_string_case Advanced Micro Devices, Inc.
+    url www.amd.com/en-us/products/solid-state-drives
+    name RADEON
+
+name RALINK
+    match_string_case Ralink Technology, Corp.
+    url www.ralinktech.com/en/02_products/product_list.php
+    url_support www.ralinktech.com/en/04_support/support.php?sn=500
+    name RALINK
+
+name RAZER
+    match_string_case Razer Inc.
+    match_string_case KARNA
+    url www.razerzone.com
+    name RAZER
+
+name REALTEK
+    match_string_case Realtek Semiconductor Corp.
+    match_string_case RTL8
+    match_string_case AVANCE LOGIC
+    match_string_case AVANCELOGIC
+    match_string_case REALTEK RTL
+    match_string_case AVANCE-LOGIC
+    url www.realtek.com.tw/products/productsView.aspx?Langid=1&PNid=7&PFid=10&Level=3&Conn=2
+    url www.realtek.com.tw/products/productsView.aspx?Langid=1&PNid=8&PFid=14&Level=3&Conn=2
+    url_support www.realtek.com.tw/downloads
+    name REALTEK
+
+name REDFOX
+    match_string_case REDFOX Solution Corp.
+    url www.myredfox.com
+    name REDFOX
+
+name RICOH
+    match_string_case Ricoh Company, Ltd.
+    url www.ricoh.com/products
+    url_support www.ricoh-usa.com/downloads
+    name RICOH
+
+name ROLAND
+    match_string_case Roland DGA Corporation
+    url www.rolanddga.com/products/printers
+    name ROLAND
+
+name ROXIO CD-ROM EMULATOR
+    match_string_case Roxio, Inc.
+    url www.roxio.com/en/products/ecdc/index.jhtml
+    name ROXIO CD-ROM EMULATOR
+
+name RUNTOP
+    match_string_case Runtop Inc.
+    url www.runtop.com.tw
+    name RUNTOP
 
 name RaidSonic Technology
-    name_short RaidSonic
-    url www.raidsonic.de
-    ansi_color 0;31;107
     match_string ICY BOX
+    url www.raidsonic.de
+    name RaidSonic Technology
+    name_short RaidSonic
+    ansi_color 0;31;107
 
 name Ralink Technology
-    name_short Ralink
-    url www.ralinktech.com
-    ansi_color 0;36;107
     match_string RaLink
+    url www.ralinktech.com
+    name Ralink Technology
+    name_short Ralink
+    ansi_color 0;36;107
 
 name Raspberry Pi Foundation
-    name_short Raspberry Pi
-    url www.raspberrypi.org
-    ansi_color 0;97;42
     match_string RaspberryPi
     match_string Raspberry Pi
+    url www.raspberrypi.org
+    name Raspberry Pi Foundation
+    name_short Raspberry Pi
+    ansi_color 0;97;42
 
 name Raspbian
-    url www.raspberrypi.org/downloads/raspbian/
-    ansi_color 0;97;101
     match_string raspbian
+    url www.raspberrypi.org/downloads/raspbian/
+    name Raspbian
+    ansi_color 0;97;101
 
 name Realtek Semiconductor
-    name_short Realtek
-    url www.realtek.com.tw
-    ansi_color 0;34;107
     match_string Realtek
+    url www.realtek.com.tw
+    name Realtek Semiconductor
+    name_short Realtek
+    ansi_color 0;34;107
 
 name Red Hat
-    url www.redhat.com
-    ansi_color 0;31;40
-    match_string Red Hat
     match_string RedHat
+    match_string Red Hat
+    url www.redhat.com
+    name Red Hat
+    ansi_color 0;31;40
 
 name Renesas Electronics
-    name_short Renesas
+    match_string Renesas
     url www.renesas.com
+    name Renesas Electronics
+    name_short Renesas
     wikipedia Renesas Electronics
     ansi_color 0;97;44
-    match_string Renesas
 
 name Ricoh
+    match_string Ricoh
     url www.ricoh.com
+    name Ricoh
     wikipedia Ricoh
     ansi_color 0;91;107
-    match_string Ricoh
 
 name Rise Technology
+    match_string RiseRiseRise
+    name Rise Technology
     name_short Rise
     note x86 processor vendor ID
-    match_string RiseRiseRise
 
 name S3 Graphics
-    name_short VIA/S3
+    match_string_case VIA/S3
+    match_string S3 Graphics
     url www.s3graphics.com
     url_support www.s3graphics.com/en/drivers
+    name S3 Graphics
+    name_short VIA/S3
     ansi_color 0;30;103
-    match_string S3 Graphics
+
+name SAMSUNG
+    match_string_case Samsung
+    match_string_case SYNCMASTER
+    match_string_case SAMSUNG
+    url www.samsung.com/us/computer/solid-state-drives
+    url www.samsung.com/us/computer/printers
+    url www.samsungodd.com/eng
+    url www.samsung.com/us/computer/monitors
+    url_support www.samsung.com/us/support
+    name SAMSUNG
+
+name SAMTRON
+    match_string_case SAMTRON
+    url www.samtron.com/product/product_01.html
+    url_support www.samtron.com/download/download_01.html
+    name SAMTRON
+
+name SANDISK
+    match_string_case SanDisk Corporation
+    url www.sandisk.com/products/ssd
+    name SANDISK
+
+name SAPPHIRE
+    match_string_case Sapphire Technology Limited
+    url www.sapphiretech.com/presentation/product/?cid=2&psn=000102&lid=1
+    url www.sapphiretech.com/presentation/product/?cid=1&psn=000101
+    url_support www.sapphiretech.com/presentation/downloads/download_index_01.aspx?psn=0006
+    name SAPPHIRE
+
+name SAVAGE4
+    match_string_case S3 Graphics Co., Ltd.
     match_string_case VIA/S3
+    match_string_case SAVAGE2000
+    match_string_case SAVAGE3D
+    match_string_case SAVAGE 2000
+    match_string_case VGS3D-
+    url www.s3graphics.com/en/products/index.aspx
+    url_support www.s3graphics.com/en/drivers/index.aspx
+    name SAVAGE4
+
+name SCEPTRE
+    match_string_case Sceptre Inc.
+    url www.sceptre.com/product_landing.php?clear=1&category_id=16
+    url_support www.sceptre.com/service_download.php
+    name SCEPTRE
+
+name SEAGATE
+    match_string_case SEAGATE
+    match_string_case CONNER
+    url www.seagate.com/gb/en
+    name SEAGATE
+
+name SEIKI
+    match_string_case Seiki, LLC
+    url www.seiki.com/tvline
+    url_support www.seiki.com
+    name SEIKI
+
+name SHARP
+    match_string_case Sharp Electronics Corp.
+    url www.sharp.co.uk/cps/rde/xchg/gb/hs.xsl/-/html/document-solutions.htm
+    name SHARP
+
+name SHUTTLE
+    match_string_case Shuttle Inc.
+    url global.shuttle.com/products/products
+    url_support global.shuttle.com/download/download
+    name SHUTTLE
+
+name SIGMATEL
+    match_string_case SigmaTel, Inc.
+    url www.sigmatel.com/products/audio-codecs.htm
+    url_support www.sigmatel.com/products/tech-support.htm
+    name SIGMATEL
+
+name SILICON IMAGE
+    match_string_case Silicon Image, Inc.
+    match_string_case CMD
+    match_string_case SiI-
+    url www.siliconimage.com/products/family.aspx?id=3
+    url_support www.siliconimage.com/support
+    name SILICON IMAGE
+
+name SILICONGRAPHICS
+    match_string_case SILICON GRAPHICS
+    match_string_case Silicon Graphics, Inc.
+    match_string_case SGI
+    match_string_case SILICON-GRAPHICS
+    url www.sgi.com/products
+    url_support support.sgi.com/search_request/downloads
+    name SILICONGRAPHICS
+
+name SILICONMOTION
+    match_string_case SILICON-MOTION
+    match_string_case SILICON MOTION
+    match_string_case Silicon Motion Technology Corp.
+    url www.siliconmotion.com.tw/A3.0_Product.php
+    url_support www.siliconmotion.com.tw/A4.0_Tech_Support.php
+    name SILICONMOTION
+
+name SIS
+    match_string_case VOLARI
+    match_string_case Silicon Integrated Systems Corporation
+    match_string_case XABRE
+    match_string_case XGI
+    match_string_case SIS190
+    match_string_case SIS191
+    match_string_case TRIDENT
+    match_string_case SIS 900
+    url www.sis.com
+    url_support w3.sis.com/download
+    name SIS
+
+name SK HYNIX
+    match_string_case HYNIX
+    match_string_case SK hynix Inc.
+    url ssd.skhynix.com/ssd/en/about/std.jsp
+    name SK HYNIX
+
+name SK Hynix
+    match_string_case SK Hynix Inc.
+    match_string_case Hynix
+    match_string_case Hyundai
+    match_string Hynix
+    match_string Hyundai
+    url www.hynix.com/eng/product/solComputing.jsp
+    url www.skhynix.com
+    name SK Hynix
+    name_short SK hynix
+    wikipedia SK Hynix
+    ansi_color 0;31;43
+
+name SKYHAWK
+    match_string_case SKY HAWK
+    match_string_case SKY-HAWK
+    match_string_case Sky Hawk Computers Group
+    url www.skyhawkgroup.com
+    name SKYHAWK
+
+name SMC
+    match_string_case SMC3
+    match_string_case SMCNetworks, Inc.
+    match_string_case SMC2
+    match_string_case SMC1
+    url www.smc.com/index.cfm?action=products_choose_product&cat_id=1&prodCat=PC%20Connectivity
+    url_support www.smc.com/index.cfm?action=tech_support_drivers_downloads
+    name SMC
+
+name SMSC
+    match_string_case Standard Microsystems Corporation
+    url www.smsc.com
+    name SMSC
+
+name SONY
+    match_string_case CD-ROM CDU
+    match_string_case DVD+RW  DRU
+    match_string_case CD-R   CDU
+    match_string_case CD-RW  CRX
+    match_string_case Sony Electronics Inc.
+    match_string_case DVD-ROM DDU
+    url store.sony.com/televisions/cat-27-catid-Televisions
+    url www.sonyburners.com/dvd_burners
+    url_support esupport.sony.com
+    url_support sony.storagesupport.com
+    name SONY
+
+name SPEEZE
+    match_string_case Speeze
+    url www.speeze.com
+    name SPEEZE
+
+name SPIRE
+    match_string_case Spire Corp
+    url www.spirecoolers.com
+    name SPIRE
+
+name SSD2SC1
+    match_string_case SSD2SC5
+    match_string_case SSD2SC8
+    match_string_case SSD2SC9
+    match_string_case SSD2SC2
+    match_string_case SSD2SC4
+    match_string_case SSD2SC6
+    match_string_case SSD2SC3
+    match_string_case PNY Technologies Inc.
+    match_string_case SSD2SC7
+    url www3.pny.com/Categories/SolidStateDrives.aspx?Category_ID=389
+    name SSD2SC1
+
+name SSK Corporation (Shenzhen)
+    match_string_case SSK
+    match_string SSK (Shenzhen)
+    url www.ssk.cn
+    name SSK Corporation (Shenzhen)
+    name_short SSK飚王
+    ansi_color 0;91;107
+
+name ST-Ericsson
+    match_string STEricsson
+    match_string ST-Ericsson
+    match_string ST Ericsson
+    name ST-Ericsson
+    wikipedia ST-Ericsson
+    ansi_color 0;97;43
+
+name STAR
+    match_string_case Star Micronics Company, Ltd.
+    url www.starmicronics.com
+    name STAR
+
+name STMicroelectronics
+    match_string STMicroelectronics
+    match_string ST Micro
+    url www.st.com
+    name STMicroelectronics
+    name_short ST
+    ansi_color 0;97;104
+
+name SUPERMICRO
+    match_string_case SUPER MICRO
+    match_string_case Supermicro, Inc.
+    match_string_case SUPER-MICRO
+    url www.supermicro.com/products/chassis
+    url www.supermicro.com/products/motherboard
+    url_support www.supermicro.com/support/resources
+    name SUPERMICRO
+
+name SUPERSSPEED
+    match_string_case Richmax Technology Company
+    url www.supersspeed.com/product.asp
+    name SUPERSSPEED
+
+name SUPERTALENT
+    match_string_case Super Talent Technology Corporation
+    match_string_case SUPER TALENT
+    url www.supertalent.com/products/ssd.php
+    name SUPERTALENT
+
+name SUPOX
+    match_string_case Supox
+    url www.epox.cn
+    name SUPOX
+
+name SURECOM
+    match_string_case SURECOM Technology Corp.
+    url www.surecom.com.tw
+    url_support www.surecom.com.tw/support/download/dl-drvs.htm
+    name SURECOM
+
+name SWEDX
+    match_string_case Swedx
+    url www.swedx.com
+    name SWEDX
+
+name SWEEX
+    match_string_case Sweex Europe BV
+    url www.sweex.com/en/notebook-pc-accessoires/muizen
+    url_support www.sweex.com/en/service-support
+    name SWEEX
+
+name SWIFTECH
+    match_string_case SwifTech
+    url www.swiftnets.com
+    name SWIFTECH
+
+name SYLVANIA
+    match_string_case Sylvania Computer Products
+    url www.sylvaniapc.com
+    url_support www.sylvaniapc.com/2Support/Drivers/Driver.html
+    name SYLVANIA
 
 name Sabrent
+    match_string Arkview
+    match_string Sabrent
     url www.sabrent.com
+    name Sabrent
     wikipedia Sabrent
     ansi_color 0;30;44
-    match_string Sabrent
-    match_string Arkview
 
 name Samsung
-    url www.samsung.com
-    ansi_color 0;47;30
     match_string Samsung
-    note EDID vendor: SAM
     match_string_exact SAM
+    url www.samsung.com/global/business/semiconductor
+    url www.samsung.com
+    name Samsung
+    ansi_color 0;47;30
+    note EDID vendor: SAM
 
 name SanDisk
-    url www.sandisk.com
-    ansi_color 0;31;40
     match_string SanDisk
+    url www.sandisk.com
+    name SanDisk
+    ansi_color 0;31;40
 
 name Sanyo Electric
-    name_short SANYO
-    url www.sanyo.com
     match_string SANYO
+    url www.sanyo.com
+    name Sanyo Electric
+    name_short SANYO
 
 name Sapphire Technology
-    name_short SAPPHIRE
-    url www.sapphiretech.com
-    ansi_color 0;30;107
     match_string sapphire tech
     match_string sapphire technology
+    url www.sapphiretech.com
+    name Sapphire Technology
+    name_short SAPPHIRE
+    ansi_color 0;30;107
 
 name Seagate Technology
-    name_short SEAGATE
-    url www.seagate.com
-    ansi_color 0;92;100
     match_string Seagate
     match_string_num_prefix_case ST
+    url www.seagate.com
+    name Seagate Technology
+    name_short SEAGATE
+    ansi_color 0;92;100
 
 name Seiko Epson Corporation
-    name_short EPSON
-    url epson.com
-    wikipedia Seiko Epson
-    ansi_color 0;34;107
     match_string Seiko Epson
     match_string Epson
     match_string Seiko
+    url epson.com
+    name Seiko Epson Corporation
+    name_short EPSON
+    wikipedia Seiko Epson
+    ansi_color 0;34;107
 
 name Sharp Corporation
+    match_string Sharp
+    match_string_exact SHP
+    name Sharp Corporation
     name_short SHARP
     ansi_color 0;31;107
-    match_string Sharp
     note EDID vendor: SHP
-    match_string_exact SHP
 
 name Siano Mobile Silicon
     match_string Siano Mobile Silicon
+    name Siano Mobile Silicon
 
 name Siemens AG
-    name_short Siemens
-    url www.siemens.com
     match_string Siemens
+    url www.siemens.com
+    name Siemens AG
+    name_short Siemens
 
 name Silicon Image
-    url www.siliconimage.com
-    match_string Silicon Image
     match_string Silicon Integrated Image
-
-name Silicon Integrated Systems Corporation
-    name_short SIS
-    url www.sis.com
-    match_string Silicon Integrated Systems
-    match_string_case SIS
+    match_string Silicon Image
+    url www.siliconimage.com
+    name Silicon Image
 
 name Silicon Integrated Systems
+    match_string SiS SiS SiS
+    name Silicon Integrated Systems
     name_short SIS
     note x86 processor vendor ID
-    match_string SiS SiS SiS
+
+name Silicon Integrated Systems Corporation
+    match_string_case SIS
+    match_string Silicon Integrated Systems
+    url www.sis.com
+    name Silicon Integrated Systems Corporation
+    name_short SIS
 
 name Silicon Power
-    name_short SP
+    match_string Silicon Power
     url www.silicon-power.com
+    name Silicon Power
+    name_short SP
     wikipedia Silicon Power
     ansi_color 0;97;40
-    match_string Silicon Power
 
-name SK Hynix
-    name_short SK hynix
-    url www.skhynix.com
-    wikipedia SK Hynix
-    ansi_color 0;31;43
-    match_string Hynix
-    match_string Hyundai
+name SimpleTech
+    match_string_case SimpleTech, Inc.
+    url www.simpletech.com/products/memory/
+    name SimpleTech
 
 name Slackware
-    url www.slackware.com
-    ansi_color 0;30;107
     match_string Slackware
+    url www.slackware.com
+    name Slackware
+    ansi_color 0;30;107
+
+name Smart Modular
+    match_string_case SMART Modular Technologies, Inc.
+    url www.smartmodular.com/products/dram/dram_modules.asp
+    name Smart Modular
 
 name Socket Mobile
-    url www.socketmobile.com
-    match_string Socket Communications
     match_string Socket Mobile
+    match_string Socket Communications
     match_string Socket
-
-name Sony Mobile
-    name_short SONY
-    url www.sony.com
-    ansi_color 0;30;107
-    match_string Sony Mobile
-    name_short SONY/Ericsson
-    match_string Sony Ericsson
+    url www.socketmobile.com
+    name Socket Mobile
 
 name Sony
-    name_short SONY
-    url www.sony.com
-    ansi_color 0;30;107
     match_string Sony
-#   match_string_case CDU
-    note EDID vendor: SNY
     match_string_exact SNY
+    url www.sony.com
+    name Sony
+    name_short SONY
+    ansi_color 0;30;107
+    note EDID vendor: SNY
+
+name Sony Mobile
+    match_string Sony Ericsson
+    match_string Sony Mobile
+    url www.sony.com
+    name Sony Mobile
+    name_short SONY/Ericsson
+    ansi_color 0;30;107
+
+name SpecTek
+    url www.spectek.com/menus/module_main.aspx
+    name SpecTek
 
 name Spectec Computer
-    name_short Spectec
-    url spectec.com.tw
     match_string Spectec
+    url spectec.com.tw
+    name Spectec Computer
+    name_short Spectec
 
-name SSK Corporation (Shenzhen)
-    name_short SSK飚王
-    url www.ssk.cn
-    ansi_color 0;91;107
-    match_string SSK (Shenzhen)
-    match_string_case SSK
-
-name ST-Ericsson
-    wikipedia ST-Ericsson
-    ansi_color 0;97;43
-    match_string ST-Ericsson
-    match_string ST Ericsson
-    match_string STEricsson
-
-name STMicroelectronics
-    name_short ST
-    url www.st.com
-    ansi_color 0;97;104
-    match_string STMicroelectronics
-    match_string ST Micro
+name SuperTalent
+    match_string_case Super Talent Technology Corporation
+    match_string_case Super Talent
+    url www.supertalent.com/products/products.php
+    name SuperTalent
 
 name Suprema
-    url www.supremainc.com
-    ansi_color 0;31;107
     match_string suprema
-
-name Synaptics (formerly Brooktree)
-    name_short Synaptics (Brooktree)
-    url www.synaptics.com
-    match_string Brooktree
-
-name Synaptics (formerly Conexant Systems)
-    name_short Synaptics (Conexant)
-    url www.synaptics.com
-    match_string Conexant
+    url www.supremainc.com
+    name Suprema
+    ansi_color 0;31;107
 
 name Synaptics
-    url www.synaptics.com
     match_string Synaptics
+    url www.synaptics.com
+    name Synaptics
+
+name Synaptics (formerly Brooktree)
+    match_string Brooktree
+    url www.synaptics.com
+    name Synaptics (formerly Brooktree)
+    name_short Synaptics (Brooktree)
+
+name Synaptics (formerly Conexant Systems)
+    match_string Conexant
+    url www.synaptics.com
+    name Synaptics (formerly Conexant Systems)
+    name_short Synaptics (Conexant)
 
 name Synopsys
-    url www.synopsys.com
-    ansi_color 0;35;107
     match_string Synopsys
+    url www.synopsys.com
+    name Synopsys
+    ansi_color 0;35;107
+
+name TALLY
+    match_string_case TallyGenicom, L.P.
+    match_string_case TALLYGENICOM
+    url tallygenicom.com/products
+    name TALLY
+
+name TATUNG
+    match_string_case Tatung Co.
+    url www.tatung.com/prod-overview.htm
+    name TATUNG
 
 name TDK-Micronas
-    url www.micronas.com
     match_string Micronas
+    url www.micronas.com
+    name TDK-Micronas
+
+name TEAC
+    match_string_case TEAC Europe GmbH
+    url www.teac-europe.eu/digital-media/cddvd-rom
+    name TEAC
 
 name TEAC Corporation
-    name_short TEAC
-    url www.teac.com
-    ansi_color 0;34;107
     match_string_case TEAC
+    url www.teac.com
+    name TEAC Corporation
+    name_short TEAC
+    ansi_color 0;34;107
+
+name TEAM
+    match_string_case TEAMGROUP Inc.
+    url www.teamgroupinc.com/en/products/ssd
+    name TEAM
+
+name TECLAST
+    match_string_case Teclast Electronics Co., Ltd.
+    url www.teclast.com/en/ssdproducts.html
+    name TECLAST
+
+name TEKRAM
+    match_string_case Tekram Systems Co.,Ltd.
+    url www.tekramonline.com
+    url_support www.tekramonline.com/Downloads.html
+    name TEKRAM
+
+name TERRATEC
+    match_string_case AUREON
+    match_string_case TerraTec Electronic
+    url productsen.terratec.net
+    url_support supporten.terratec.net
+    name TERRATEC
+
+name THERMALRIGHT
+    match_string_case THERMAL-RIGHT
+    match_string_case Thermalright, Inc.
+    match_string_case THERMAL RIGHT
+    url www.thermalright.com
+    name THERMALRIGHT
+
+name THERMALTAKE
+    match_string_case Thermaltake Technology Co., Ltd.
+    match_string_case THERMAL-TAKE
+    match_string_case THERMAL TAKE
+    url www.thermaltakeusa.com/chassis.aspx
+    url www.thermaltakeusa.com/cooler.aspx
+    url www.thermaltakeusa.com/psu.aspx
+    name THERMALTAKE
+
+name TITAN
+    match_string_case TITAN Computer Co., Ltd.
+    url www.titan-cd.com
+    name TITAN
+
+name TOPSTAR
+    match_string_case Shenzen Topstar Technology Co., Ltd
+    url www.topstar1.com/products.asp
+    url_support www.topstar1.com/download.asp
+    name TOPSTAR
+
+name TOPSYNC
+    match_string_case Orion Communications Co.,Ltd.
+    url www.topsync.com/eng
+    name TOPSYNC
+
+name TOSHIBA
+    match_string_case TOSHIBA
+    match_string_case Toshiba America Information Systems, Inc.
+    match_string_case FUJITSU
+    match_string_case Toshiba Corp., Storage Device Division
+    url sdd.toshiba.com
+    url www.csd.toshiba.com
+    name TOSHIBA
+
+name TOSHIBA-SAMSUNG
+    match_string_case TSSTCORP
+    match_string_case Toshiba Samsung Storage Technology
+    url www.tsstorage.com/tsst/index_e.html
+    url_support www.samsungodd.com/eng/LiveUpdate/LiveUpdate.asp
+    name TOSHIBA-SAMSUNG
+
+name TOTOKU
+    match_string_case Totoku Electric Co., Ltd.
+    url www.totoku.com/display
+    url_support www.totoku.com/display/support
+    name TOTOKU
+
+name TRANSCEND
+    match_string_case TS16GSSD
+    match_string_case TS32GPSSD
+    match_string_case TS480GSSD
+    match_string_case TS128GSSD
+    match_string_case TS3TSSD
+    match_string_case TS512GSSD
+    match_string_case TS8GPSSD
+    match_string_case TS16GPSSD
+    match_string_case TS64GSSD
+    match_string_case TS4GSSD
+    match_string_case TS2TSSD
+    match_string_case TS2GSSD
+    match_string_case TS32GSSD
+    match_string_case Transcend Information, Inc.
+    match_string_case TS1TSSD
+    match_string_case TS8GSSD
+    match_string_case TS192GSSD
+    match_string_case TS4TSSD
+    match_string_case TS60GSSD
+    match_string_case TS120GSSD
+    match_string_case TS240GSSD
+    match_string_case TS256GSSD
+    url www.transcend-info.com/product/ssd
+    name TRANSCEND
+
+name TRANSMETA
+    match_string_case Transmeta Corporation
+    url www.transmeta.com
+    name TRANSMETA
+
+name TRIPLEX
+    match_string_case Triplex Electronic Co., Ltd.
+    url www.triplex.com.tw
+    name TRIPLEX
+
+name TRUST
+    match_string_case Trust International
+    url www.trust.com/en/trust/mice
+    url_support www.trust.com/support/downloads
+    name TRUST
+
+name TUL
+    match_string_case C.P.
+    match_string_case Tul Corporation
+    match_string_case POWERCOLOR
+    url www.tul.com.tw/Products.html
+    url_support www.tul.com.tw
+    name TUL
+
+name TURTLEBEACH
+    match_string_case TURTLE BEACH
+    match_string_case Turtle Beach, Inc.
+    match_string_case TURTLE-BEACH
+    url www.turtlebeach.com/products/accessories/sound-cards
+    url_support support.turtlebeach.com
+    name TURTLEBEACH
+
+name TVM
+    match_string_case Taiwan Video & Monitor Corporation
+    url www.tvm.com
+    name TVM
+
+name TYAN
+    match_string_case Tyan Computer Corporation
+    url www.tyan.com/MB@en-US@0@1~sorte
+    url_support www.tyan.com
+    name TYAN
+
+name Team Group
+    match_string_case Team Group Inc.
+    url www.teamgroup.com.tw/filterable_product/filterable_catalog/data/en/9/0/278724.html
+    name Team Group
 
 name Telefonaktiebolaget LM Ericsson
-    name_short Ericsson
+    match_string Ericsson
     url ericsson.com
+    name Telefonaktiebolaget LM Ericsson
+    name_short Ericsson
     wikipedia Ericsson
     ansi_color 0;94;107
-    match_string Ericsson
 
 name Texas Instruments
-    name_short TI
+    match_string_case TI
+    match_string Texas Instruments
     url ti.com
+    name Texas Instruments
+    name_short TI
     wikipedia Texas Instruments
     ansi_color 0;97;40
-    match_string Texas Instruments
-    match_string_case TI
+
+name Texas Instruments Incorporated
+    url focus.ti.com/docs/logic/catalog/products/memorymodule.jhtml?templateId=5010&navigationId=7856&fileName=memorymodule
+    name Texas Instruments Incorporated
+
+name Toshiba
+    match_string_case Toshiba America Electronic Components, Inc.
+    url www.toshiba.com/taec/Catalog/Family.do?familyid=7
+    name Toshiba
 
 name Toshiba Corporation
-# styled in all-caps
-    name_short TOSHIBA
-    url www.toshiba.com
-    ansi_color 0;91;47
     match_string Toshiba
-    note EDID vendor: TSB
     match_string_exact TSB
+    url www.toshiba.com
+    name Toshiba Corporation
+    name_short TOSHIBA
+    ansi_color 0;91;47
+    note EDID vendor: TSB
 
 name Toshiba Samsung Storage Technology
-    name_short TSST
+    match_string_case TSST
+    match_string TSSTcorp
+    match_string Toshiba Samsung Storage
     url www.tsst.co.kr
+    name Toshiba Samsung Storage Technology
+    name_short TSST
     wikipedia Toshiba Samsung Storage Technology
     ansi_color 0;34;107
-    match_string Toshiba Samsung Storage
-    match_string TSSTcorp
-    match_string_case TSST
 
-# JEDEC mfgr [1][78]
+name Transcend
+    match_string_case Transcend Information Inc.
+    url www.transcend-info.com/product/modules
+    name Transcend
+
 name Transcend Information
-    name_short Transcend
-    url transcend-info.com
-    ansi_color 0;31;47
-    match_string Transcend Information
-    # More likely this one is T. Information than T. Technology
     match_string Transcend
-
-# JEDEC mfgr [7][105]
-name Transcend Technology
+    match_string Transcend Information
+    url transcend-info.com
+    name Transcend Information
     name_short Transcend
+    ansi_color 0;31;47
+
+name Transcend Technology
     match_string Transcend Technology
+    name Transcend Technology
+    name_short Transcend
+
+name Transmeta
+    match_string_case Transmeta Corporation
+    url www.transmeta.com
+    name Transmeta
 
 name Transmeta Corporation
-    name_short Transmeta
-    note x86 processor vendor ID
     match_string TransmetaCPU
     match_string GenuineTMx86
+    name Transmeta Corporation
+    name_short Transmeta
+    note x86 processor vendor ID
 
 name Ubuntu
+    match_string ubuntu
     url www.ubuntu.com
     url_support www.ubuntu.com/support/community-support
+    name Ubuntu
     ansi_color 0;97;45
-    match_string ubuntu
 
 name Union Memory (Shenzhen)
-    name_short Union Memory
-    url unionmem.com
-    ansi_color 0;35;107
     match_string Union Memory (Shenzhen)
+    url unionmem.com
+    name Union Memory (Shenzhen)
+    name_short Union Memory
+    ansi_color 0;35;107
 
 name United Microelectronics Corporation
+    match_string UMC UMC UMC
+    name United Microelectronics Corporation
     name_short UMC
     note x86 processor vendor ID
-    match_string UMC UMC UMC
 
-name Valve Corporation
-    name_short VALVE
-    url valvesoftware.com
-    wikipedia Valve Corporation
-    ansi_color 0;97;41
-    match_string Valve Corporation
-    match_string Valve
+name VANTEC
+    match_string_case Vantec Thermal Techologies
+    url www.vantecusa.com/products_cap.php?pt_id=6
+    name VANTEC
+
+name VBOX HARD
+    match_string_case Oracle Corporation
+    url www.virtualbox.org
+    name VBOX HARD
+
+name VIA
+    match_string_case IC-ENSEMBLE
+    match_string_case ICENSEMBLE
+    match_string_case ETHERNET VIA PCI
+    match_string_case IC ENSEMBLE
+    match_string_case VIA-
+    match_string_case FAST ETHERNET COMPATIBLE VIA
+    match_string_case VIA Technologies, Inc.
+    url www.via.com.tw/en/products/chipsets
+    url www.via.com.tw/en/products/audio
+    url www.viaembedded.com/en/products/boards
+    url www.via.com.tw/en/products/networking
+    url_support www.via.com.tw/en/support/drivers.jsp
+    url_support www.viaembedded.com/en/downloads/Drivers.jsp
+    name VIA
 
 name VIA (formerly Centaur Technology)
-    name_short VIA (Centaur)
+    match_string CentaurHauls
     url www.via.tw
+    name VIA (formerly Centaur Technology)
+    name_short VIA (Centaur)
     ansi_color 0;36;107
     note x86 processor vendor ID
-    match_string CentaurHauls
 
 name VIA (formerly Cyrix)
-    name_short VIA (Cyrix)
-    url www.via.tw
-    ansi_color 0;36;107
-    note x86 processor vendor ID
     match_string CyrixInstead
-
-name VIA Technologies
-    name_short VIA
-    url www.via.com.tw
-    ansi_color 0;36;107
-    match_string_case VIA
-
-name VIA Technologies
-    name_short VIA
     url www.via.tw
+    name VIA (formerly Cyrix)
+    name_short VIA (Cyrix)
     ansi_color 0;36;107
     note x86 processor vendor ID
+
+name VIA Technologies
+    match_string_case VIA
     match_string VIA VIA VIA
+    url www.via.tw
+    url www.via.com.tw
+    name VIA Technologies
+    name_short VIA
+    ansi_color 0;36;107
 
-name Victor Company of Japan
-    name_short JVC
-    url www.victor.co.jp
-    ansi_color 0;91;107
-    match_string_case JVC
-    match_string Victor
+name VIEWSONIC
+    match_string_case OPTIQUEST
+    match_string_case NOKIA
+    match_string_case ViewSonic Corporation
+    url www.viewsonic.com/monitors.html
+    url_support www.viewsonic.com/support/downloads
+    name VIEWSONIC
 
-name ViewSonic Corporation
-    name_short ViewSonic
-    url www.viewsonic.com
-    ansi_color 0;35;103
-    match_string ViewSonic
-    note EDID vendor: VSC
-    match_string_exact VSC
+name VIGLEN
+    match_string_case Viglen Ltd.
+    url www.viglen.co.uk/viglen/Products_Services/Product_Range/Desktop_Systems.aspx
+    url_support download.viglen.co.uk/files
+    name VIGLEN
 
-name Vimicro
-    url www.vimicro.com
-    match_string Vimicro
+name VIRTUAL DAEMON
+    match_string_case GENERIC STEALTH DVD
+    match_string_case V386 PHANTOM
+    match_string_case V386 STEALTH
+    match_string_case The DAEMONs
+    match_string_case DAEMON VIRTUAL
+    url www.daemon-tools.cc
+    name VIRTUAL DAEMON
 
-name Vizio
-    name_short VIZIO
-    ansi_color 0;30;107
-    match_string Vizio
-    note EDID vendor: VIZ
-    match_string_exact VIZ
+name VIRTUALBOX
+    match_string_case Oracle Corporation
+    url www.virtualbox.org
+    name VIRTUALBOX
+
+name VISIONTEK
+    match_string_case Hartford Computer Group, Inc.
+    url www.visiontek.com
+    name VISIONTEK
+
+name VITA
+    match_string_case VITA Electronics Co., Ltd
+    url www.vita-color.com
+    name VITA
+
+name VITESSE
+    match_string_case Vitesse Semiconductor Corporation
+    url www.vitesse.com/products/bygroup.php
+    name VITESSE
+
+name VIZIO
+    match_string_case VIZIO, Inc.
+    url www.vizio.com
+    url_support www.vizio.com/support
+    name VIZIO
+
+name VMWARE
+    match_string_case VMWARE
+    match_string_case VMware, Inc.
+    url www.vmware.com
+    name VMWARE
 
 name VMware
+    match_string VMware
+    match_string VMwareVMware
     url www.vmware.com
+    name VMware
     wikipedia VMware
     ansi_color 0;90;47
-    match_string VMware
     note x86 VM vendor string
-    match_string VMwareVMware
+
+name Valve Corporation
+    match_string Valve Corporation
+    match_string Valve
+    url valvesoftware.com
+    name Valve Corporation
+    name_short VALVE
+    wikipedia Valve Corporation
+    ansi_color 0;97;41
+
+name Victor Company of Japan
+    match_string_case JVC
+    match_string Victor
+    url www.victor.co.jp
+    name Victor Company of Japan
+    name_short JVC
+    ansi_color 0;91;107
+
+name ViewSonic Corporation
+    match_string ViewSonic
+    match_string_exact VSC
+    url www.viewsonic.com
+    name ViewSonic Corporation
+    name_short ViewSonic
+    ansi_color 0;35;103
+    note EDID vendor: VSC
+
+name Vimicro
+    match_string Vimicro
+    url www.vimicro.com
+    name Vimicro
+
+name Vizio
+    match_string Vizio
+    match_string_exact VIZ
+    name Vizio
+    name_short VIZIO
+    ansi_color 0;30;107
+    note EDID vendor: VIZ
+
+name WDC
+    match_string_case Western Digital Corporation
+    match_string_case WDC
+    match_string_case WDIGTL
+    url www.wdc.com/products/internal-storage.html
+    name WDC
+
+name WEIBU
+    match_string_case Shenzen Weibu Electronics Co., Ltd.
+    url www.weibu.com/products/MotherBoard
+    url_support www.weibu.com/Support
+    name WEIBU
 
 name Western Digital
-    name_short WD
+    match_string_case WDC
+    match_string Western Digital
+    match_string_num_prefix_case WD
     url www.westerndigital.com
+    name Western Digital
+    name_short WD
     wikipedia Western Digital
     ansi_color 0;37;40
-#   ansi_color 0;97;44
-    match_string Western Digital
-    match_string_case WDC
-    match_string_num_prefix_case WD
 
-# Company defunct, now brand name of Chinese company
 name Westinghouse Electronics
+    match_string Westinghouse
+    name Westinghouse Electronics
     name_short W
     wikipedia Westinghouse Electronics
     ansi_color 0;97;44
-    match_string Westinghouse
+
+name Winbond
+    match_string_case Winbond Electronics Corp.
+    url www.winbond.com/hq/product
+    name Winbond
 
 name Winbond Electronics Corporation
-    name_short Winbond
+    match_string Winbond
     url www.winbond.com
+    name Winbond Electronics Corporation
+    name_short Winbond
     wikipedia Winbond
     ansi_color 0;31;107
-    match_string Winbond
 
 name X.Org Foundation
-    name_short X.Org
+    match_string X.Org
     url www.x.org
+    name X.Org Foundation
+    name_short X.Org
     wikipedia X.Org Foundation
     ansi_color 0;30;43
-    match_string X.Org
 
-name Xen HVM
-    url www.xenproject.org
-    match_string XenVMMXenVMM
+name XEROX
+    match_string_case Xerox Corporation
+    match_string_case TEKTRONIX
+    url www.office.xerox.com
+    name XEROX
+
+name XFX
+    match_string_case PINE Technologies
+    url xfxforce.com/en-gb/Home.aspx
+    url_support xfxforce.com/en-gb/support/drivers---tools
+    name XFX
 
 name XFX Pine Group
-    name_short XFX
+    match_string_case XFX
     url www.xfxforce.com
+    name XFX Pine Group
+    name_short XFX
     wikipedia XFX
     ansi_color 0;30;42
-    match_string_case XFX
+
+name Xen HVM
+    match_string XenVMMXenVMM
+    url www.xenproject.org
+    name Xen HVM
+
+name YAMAHA
+    match_string_case Yamaha Electronics Corporation
+    url www.yamahamultimedia.com/yec/idx_cdrw.asp
+    url www.yamahamultimedia.com/yec/idx_support.asp
+    url_support www.yamahamultimedia.com/yec/helpcenter/customer/help.htm
+    name YAMAHA
 
 name Yamaha Corporation
-    name_short Yamaha
+    match_string Yamaha
     url www.yamaha.com
+    name Yamaha Corporation
+    name_short Yamaha
     wikipedia Yamaha Corporation
     ansi_color 0;35;107
-    match_string Yamaha
+
+name ZALMAN
+    match_string_case ZALMAN Tech Co., Ltd.
+    url www.zalman.co.kr/contents/products/main.html?c=700
+    url www.zalman.co.kr/contents/products/list.html?c=100
+    url www.zalman.co.kr/contents/products/list.html?c=300
+    name ZALMAN
+
+name ZOTAC
+    match_string_case ZTSSD
+    match_string_case NVME ZTSSD
+    match_string_case ZOTAC International (MCO) Limited
+    url www.zotac.com/products/graphics-cards/product/graphics-cards.html
+    url www.zotac.com/products/mainboards/product/mainboards.html
+    url www.zotac.com/us/product/ssd/all
+    url_support www.zotac.com/support/download.html
+    name ZOTAC
 
 name ZOTAC International
-    name_short ZOTAC
+    match_string ZOTAC
     url www.zotac.com
     url_support www.zotac.com/support/
+    name ZOTAC International
+    name_short ZOTAC
     ansi_color 0;90;43
-    match_string ZOTAC
+
+name eMPIA Technology
+    match_string_case eMPIA
+    url www.empiatech.com.tw
+    name eMPIA Technology
+
+name nVidia Corporation
+    match_string nVidia
+    url www.nvidia.com
+    name nVidia Corporation
+    name_short nVidia
+    wikipedia Nvidia
+    ansi_color 0;97;42
 
