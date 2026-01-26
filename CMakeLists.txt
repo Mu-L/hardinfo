@@ -1,6 +1,10 @@
 project(HardInfo)
 cmake_minimum_required(VERSION 4.2)
 
+if(POLICY CMP0175)
+  cmake_policy(SET CMP0175 OLD)
+endif()
+
 set(HARDINFO_VERSION "0.6-alpha")
 option(HARDINFO_GTK3 "Attempt to build for GTK3 (0/off for GTK2)" 0)
 set(OVRARCH "" CACHE STRING "Override HARDINFO_ARCH value")
