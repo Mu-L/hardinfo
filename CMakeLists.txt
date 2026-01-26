@@ -1,6 +1,5 @@
 project(HardInfo)
-cmake_minimum_required(VERSION 2.6)
-cmake_policy(VERSION 2.6)
+cmake_minimum_required(VERSION 4.2)
 
 set(HARDINFO_VERSION "0.6-alpha")
 option(HARDINFO_GTK3 "Attempt to build for GTK3 (0/off for GTK2)" 0)
@@ -318,6 +317,7 @@ add_executable(hardinfo
 	shell/loadgraph-uber.c
 )
 target_link_libraries(hardinfo
+        -Wl,-export-dynamic
 	-Wl,-whole-archive sysobj_early -Wl,-no-whole-archive
 	uber-graph
 	${GTK_LIBRARIES}

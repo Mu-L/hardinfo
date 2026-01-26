@@ -390,35 +390,6 @@ static gchar *detect_machine_type(void)
     GDir *dir;
     gchar *chassis;
 
-    chassis = dmi_chassis_type_str(-1, 0);
-    if (chassis)
-        return chassis;
-
-    chassis = dtr_get_string("/model", 0);
-    if (chassis) {
-        if (strstr(chassis, "Raspberry Pi") != NULL
-            || strstr(chassis, "ODROID") != NULL
-            || strstr(chassis, "Firefly ROC") != NULL
-            /* FIXME: consider making a table when adding more models */ ) {
-                g_free(chassis);
-                return g_strdup(_("Single-board computer"));
-        }
-        g_free(chassis);
-    }
-
-    if (g_file_test("/proc/pmu/info", G_FILE_TEST_EXISTS))
-        return g_strdup(_("Laptop"));
-
-    dir = g_dir_open("/proc/acpi/battery", 0, NULL);
-    if (dir) {
-        const gchar *name = g_dir_read_name(dir);
-
-        g_dir_close(dir);
-
-        if (name)
-            return g_strdup(_("Laptop"));
-    }
-
     dir = g_dir_open("/sys/class/power_supply", 0, NULL);
     if (dir) {
         const gchar *name;
@@ -446,6 +417,35 @@ static gchar *detect_machine_type(void)
         }
 
         g_dir_close(dir);
+    }
+
+    chassis = dmi_chassis_type_str(-1, 0);
+    if (chassis)
+        return chassis;
+
+    chassis = dtr_get_string("/model", 0);
+    if (chassis) {
+        if (strstr(chassis, "Raspberry Pi") != NULL
+            || strstr(chassis, "ODROID") != NULL
+            || strstr(chassis, "Firefly ROC") != NULL
+            /* FIXME: consider making a table when adding more models */ ) {
+                g_free(chassis);
+                return g_strdup(_("Single-board computer"));
+        }
+        g_free(chassis);
+    }
+
+    if (g_file_test("/proc/pmu/info", G_FILE_TEST_EXISTS))
+        return g_strdup(_("Laptop"));
+
+    dir = g_dir_open("/proc/acpi/battery", 0, NULL);
+    if (dir) {
+        const gchar *name = g_dir_read_name(dir);
+
+        g_dir_close(dir);
+
+        if (name)
+            return g_strdup(_("Laptop"));
     }
 
     /* FIXME: check if batteries are found using /proc/apm */
