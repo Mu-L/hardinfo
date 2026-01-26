@@ -114,6 +114,16 @@ struct _OperatingSystem {
     gchar *entropy_avail;
 
     const DistroFlavor* distro_flavor;
+
+    struct {
+        /* /sys/kernel/debug/zswap/  has some nice numbers but they require
+         * /CAP_SYS_ADMIN to read them */
+        gchar *compressor;
+        int max_pool_percent;
+        int accept_threshold_percent;
+        gboolean shrinker_enabled;
+        gboolean enabled;
+    } zswap;
 };
 
 struct _MemoryInfo {

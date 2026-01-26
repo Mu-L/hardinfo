@@ -623,6 +623,27 @@ gchar *callback_os(void)
                    info_field_update(_("Load Average"), 10000),
                    info_field_last());
 
+    if (computer->os->zswap.enabled) {
+        info_add_group(info, _("Memory Compression (ZSwap)"),
+                       info_field(_("Compression"),
+                           computer->os->zswap.compressor ? : _("N/A")),
+                       info_field(_("Shrinker Enabled"),
+                           computer->os->zswap.shrinker_enabled ? _("Yes") : _("No")),
+                       info_field(_("Maximum Pool Percent"),
+                           idle_free(
+                               g_strdup_printf("%d%%", computer->os->zswap.max_pool_percent)
+                           )),
+                       info_field(_("Accept Threshold Percent"),
+                           idle_free(
+                               g_strdup_printf("%d%%", computer->os->zswap.accept_threshold_percent)
+                           )),
+                       info_field_last());
+    } else {
+        info_add_group(info, _("Memory Compression (ZSwap)"),
+                       info_field(_("Compression"), _("Disabled")),
+                       info_field_last());
+    }
+
     return info_flatten(info);
 }
 
