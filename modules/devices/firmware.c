@@ -227,7 +227,6 @@ gchar *fwupdmgr_get_devices_info() {
             }
         }
         g_variant_iter_free(deviter);
-        g_variant_unref(devices);
     }
 
     g_object_unref(proxy);
@@ -243,6 +242,10 @@ gchar *fwupdmgr_get_devices_info() {
         ret = g_strdup_printf("[%s]\n%s=%s\n" "[$ShellParam$]\nViewType=0\n",
                 _("Firmware List"),
                 _("Result"), _("(Not available)") );
+    }
+
+    if (devices) {
+        g_variant_unref(devices);
     }
     return ret;
 }
