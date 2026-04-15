@@ -127,7 +127,7 @@ struct _OperatingSystem {
 };
 
 struct _MemoryInfo {
-    gint total, used, free, cached;
+    gint total, used, free, cached, zswapped;
     gfloat ratio;
 };
 

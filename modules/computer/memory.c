@@ -43,6 +43,7 @@ computer_get_memory(void)
         get_int("MemTotal", mi->total);
         get_int("MemFree", mi->free);
         get_int("Cached", mi->cached);
+        get_int("Zswapped", mi->zswapped);
 
         g_strfreev(tmp);
     }
@@ -50,10 +51,11 @@ computer_get_memory(void)
 
     mi->used = mi->total - mi->free;
 
-    mi->total  /= 1000;
-    mi->cached /= 1000;
-    mi->used   /= 1000;
-    mi->free   /= 1000;
+    mi->total    /= 1000;
+    mi->cached   /= 1000;
+    mi->used     /= 1000;
+    mi->free     /= 1000;
+    mi->zswapped /= 1000;
 
     mi->used -= mi->cached;
     mi->ratio = 1 - (gdouble) mi->used / mi->total;

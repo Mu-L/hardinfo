@@ -139,7 +139,11 @@ gchar *hi_get_field(gchar * field)
 
     if (g_str_equal0(label, _("Memory"))) {
         MemoryInfo *mi = computer_get_memory();
-        tmp = g_strdup_printf(_("%dMB (%dMB used)"), mi->total, mi->used);
+        if (mi->zswapped) {
+            tmp = g_strdup_printf(_("%dMB (%dMB used, %dMB compressed)"), mi->total, mi->used, mi->zswapped);
+        } else {
+            tmp = g_strdup_printf(_("%dMB (%dMB used)"), mi->total, mi->used);
+        }
         g_free(mi);
     } else if (g_str_equal0(label, _("Uptime"))) {
         tmp = computer_get_formatted_uptime();
