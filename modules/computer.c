@@ -677,6 +677,7 @@ gchar *callback_security(void)
         info, _("Linux Security Modules"),
         info_field(_("Modules available"), idle_free(computer_get_lsm())),
         info_field(_("SELinux status"), computer_get_selinux()),
+        info_field(_("Landlock ABI version"), idle_free(computer_get_landlock_abi_version())),
         info_field_last());
 
     GDir *dir = g_dir_open("/sys/devices/system/cpu/vulnerabilities", 0, NULL);

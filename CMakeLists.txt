@@ -83,6 +83,12 @@ add_definitions("-Wformat-security")
 
 add_subdirectory(po)
 
+
+find_path(LANDLOCK_HEADER landlock.h /usr/include/linux)
+if (LANDLOCK_HEADER)
+	add_definitions("-DHAS_LANDLOCK")
+endif()
+
 include(FindPkgConfig)
 if (HARDINFO_GTK3)
 	message(STATUS "Building for GTK3 (experimental!)")
